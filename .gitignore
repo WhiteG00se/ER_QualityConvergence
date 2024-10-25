@@ -1,0 +1,14 @@
+*.lnk
+*.log
+*.bat
+*.md
+*.txt
+config_eldenring.toml
+modengine2_launcher.exe
+
+/mod
+/modengine2
+
+# files I edited
+!Tobi's_README.txt
+!Tobi's_README.md
