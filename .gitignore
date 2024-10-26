@@ -3,3 +3,6 @@
 /SeamlessCoop
 Start_Convergence.bat
 modengine2_launcher.exe
+
+#whitelist
+!mod/erd_tools.ini
