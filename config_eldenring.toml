@@ -18,6 +18,10 @@ external_dlls = [
     "mod/eldenring_alt_saves.dll", 
     "mod/Scripts-Data-Exposer-FS.dll",
     "mod/SkipTheIntro.dll", 
+    "SkipTheIntro.dll", 
+    "AdjustTheFov.dll",
+    "UltrawideFix.dll",
+    "UnlockTheFps.dll",
 ]
 
 # Mod loader configuration
