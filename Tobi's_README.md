@@ -3,6 +3,7 @@
 - EldenRingFpsUnlockAndMore.exe https://github.com/uberhalit/EldenRingFpsUnlockAndMore/releases
 - eldenring_all-in-one_Hexinton CE Table https://www.nexusmods.com/eldenring/mods/48?tab=files
 - Convergence ER Downloader https://www.nexusmods.com/eldenring/mods/3419?tab=files
+- Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
 - AdjustTheFov, SkipTheIntro, UltrawideFix and UnlockTheFps from ERR: https://discord.gg/rGY3W7xe
 
 # how to install / update
