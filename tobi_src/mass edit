@@ -1,0 +1,6 @@
+param EquipParamAccessory: !id -1: sellValue: = 1
+##id range for runes (inclusive)
+param EquipParamGoods: !idrange 2900 2919: sellValue: = 1
+param EquipParamProtector: !id -1: sellValue: = 1
+param EquipParamWeapon: !id -1: sellValue: = 1
+param ShopLineUpParam: !id -1: value: = 1
