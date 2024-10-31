@@ -17,11 +17,10 @@ external_dlls = [
     "mod/ErdTools.dll", 
     "mod/eldenring_alt_saves.dll", 
     "mod/Scripts-Data-Exposer-FS.dll",
-    "mod/SkipTheIntro.dll", 
-    "SkipTheIntro.dll", 
-    "AdjustTheFov.dll",
-    "UltrawideFix.dll",
-    "UnlockTheFps.dll",
+    "mod_3rd_party/SkipTheIntro.dll", 
+    "mod_3rd_party/AdjustTheFov.dll",
+    "mod_3rd_party/UltrawideFix.dll",
+    "mod_3rd_party/UnlockTheFps.dll",
 ]
 
 # Mod loader configuration
