@@ -8,7 +8,9 @@
     "EquipParamProtector",
     "EquipParamWeapon",
     "ShopLineupParam",
-    "ItemLotParam_map"
+    "ItemLotParam_map",
+    "Magic",
+    "SpEffectParam"
   ],
   "PinnedRows": {},
   "PinnedFields": {},
