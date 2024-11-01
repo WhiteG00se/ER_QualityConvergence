@@ -10,7 +10,8 @@
     "ShopLineupParam",
     "ItemLotParam_map",
     "Magic",
-    "SpEffectParam"
+    "SpEffectParam",
+    "Bullet"
   ],
   "PinnedRows": {},
   "PinnedFields": {},
