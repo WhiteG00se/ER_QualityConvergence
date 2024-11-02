@@ -1,4 +1,4 @@
-## set all prices to 1 aside from id range for runes (inclusive)
+## set all prices to 1 aside for runes (inclusive)
 param EquipParamGoods: positive sellValue && !idrange 2900 2919: sellValue: = 1
 param EquipParamAccessory: positive sellValue: sellValue: = 1
 param EquipParamProtector: positive sellValue: sellValue: = 1
@@ -8,19 +8,29 @@ param ShopLineupParam: positive value: value: = 1
 ## replace: GoldenSeeds: Golden Rune [6] - 2000
 param ItemLotParam_map: prop lotItemId01 10010: lotItemId01: = 2905
 ## change: starting flasks 3+1 = 2+1 (golden seeds no longer work)
-param CharaInitParam: proprange ID 3000 3299 && prop HpEstMax 3 : HpEstMax: = 1
+param CharaInitParam: idrange 3000 3299 && prop HpEstMax 3 : HpEstMax: = 1
+## set all starting classes to level 1 / 10 in every stat
+param CharaInitParam: idrange 3000 3299: soulLv: = 1
+param CharaInitParam: idrange 3000 3299: baseVit: = 10
+param CharaInitParam: idrange 3000 3299: baseWil: = 10
+param CharaInitParam: idrange 3000 3299: baseEnd: = 10
+param CharaInitParam: idrange 3000 3299: baseStr: = 10
+param CharaInitParam: idrange 3000 3299: baseDex: = 10
+param CharaInitParam: idrange 3000 3299: baseMag: = 10
+param CharaInitParam: idrange 3000 3299: baseFai: = 10
+param CharaInitParam: idrange 3000 3299: baseLuc: = 10
 
 ## set: range of heals: 40
-## : Heal 10642101
-param Bullet: id : hitRadius: = 40
-## : Great Heal 
+## Heal 
+param Bullet: id 10642101: hitRadius: = 40
+## Great Heal 
 param Bullet: id 10642201: hitRadius: = 40
-## : Lord's Heal 6.000
-param Bullet: id : hitRadius: = 40
-## : Erdtree Heal  (seems to be chargable)
+## Lord's Heal
+param Bullet: id 10642301: hitRadius: = 40
+## Erdtree Heal  (seems to be chargable)
 param Bullet: id 10642401: hitRadius: = 40
 param Bullet: id 10642401: hitRadiusMax: = 40
-## : Ancestral Conduit (already 40)
+## Ancestral Conduit (already 40)
 param Bullet: id 10744200: hitRadius: = 40
 
 ## replace: Smithing Stone: Golden Rune [2] - 400
@@ -45,9 +55,9 @@ param ItemLotParam_map: prop lotItemId01 10168: lotItemId01: = 2918
 
 ## lower: weight of non-shield weapons to 0
 param EquipParamWeapon: !proprange wepType 65 69 && positive weight: weight: = 0
-## lower: equid load for any endurance by 12
-param CalcCorrectGraph: id 220: stageMaxGrowVal0: - 12
-param CalcCorrectGraph: id 220: stageMaxGrowVal1: - 12
-param CalcCorrectGraph: id 220: stageMaxGrowVal2: - 12
-param CalcCorrectGraph: id 220: stageMaxGrowVal3: - 12
-param CalcCorrectGraph: id 220: stageMaxGrowVal4: - 12
+## lower: equid load for any endurance by 12 (Val0 used to be same as Val1)
+param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
+param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 33
+param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 60
+param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 108
+param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 148
