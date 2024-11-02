@@ -1,38 +1,51 @@
-##set all prices to 1 aside from id range for runes (inclusive)
+## set all prices to 1 aside from id range for runes (inclusive)
 param EquipParamGoods: positive sellValue && !idrange 2900 2919: sellValue: = 1
 param EquipParamAccessory: positive sellValue: sellValue: = 1
 param EquipParamProtector: positive sellValue: sellValue: = 1
 param EquipParamWeapon: positive sellValue: sellValue: = 1
 param ShopLineupParam: positive value: value: = 1
 
-##replace: GoldenSeeds: Golden Rune [6] - 2000
+## replace: GoldenSeeds: Golden Rune [6] - 2000
 param ItemLotParam_map: prop lotItemId01 10010: lotItemId01: = 2905
-##change: starting flasks 3+1 = 2+1 (golden seeds no longer work)
-param CharaInitParam: proprange ID 3000 3299 && prop HpEstMax 3 : HpEstMax: = 2
+## change: starting flasks 3+1 = 2+1 (golden seeds no longer work)
+param CharaInitParam: proprange ID 3000 3299 && prop HpEstMax 3 : HpEstMax: = 1
 
-##replace: Smithing Stone: Golden Rune [2] - 400
+## set: range of heals: 40
+## : Heal 10642101
+param Bullet: id : hitRadius: = 40
+## : Great Heal 
+param Bullet: id 10642201: hitRadius: = 40
+## : Lord's Heal 6.000
+param Bullet: id : hitRadius: = 40
+## : Erdtree Heal  (seems to be chargable)
+param Bullet: id 10642401: hitRadius: = 40
+param Bullet: id 10642401: hitRadiusMax: = 40
+## : Ancestral Conduit (already 40)
+param Bullet: id 10744200: hitRadius: = 40
+
+## replace: Smithing Stone: Golden Rune [2] - 400
 param ItemLotParam_map: prop lotItemId01 10101: lotItemId01: = 2901
-##replace: Large Smithing Stone: Golden Rune [6] - 2000
+## replace: Large Smithing Stone: Golden Rune [6] - 2000
 param ItemLotParam_map: prop lotItemId01 10105: lotItemId01: = 2905
-##replace: Great Smithing Stone: Golden Rune [10] - 5000
+## replace: Great Smithing Stone: Golden Rune [10] - 5000
 param ItemLotParam_map: prop lotItemId01 10107: lotItemId01: = 2909
-##replace: Ancient Smithing Stone: Hero's Rune [5] - 35000
+## replace: Ancient Smithing Stone: Hero's Rune [5] - 35000
 param ItemLotParam_map: prop lotItemId01 10140: lotItemId01: = 2918
 
-##replace: Somber Stone: Golden Rune [3] - 800
+## replace: Somber Stone: Golden Rune [3] - 800
 param ItemLotParam_map: prop lotItemId01 10160: lotItemId01: = 2902
-##replace: Large Somber Stone: Golden Rune [7] - 2500
+## replace: Large Somber Stone: Golden Rune [7] - 2500
 param ItemLotParam_map: prop lotItemId01 10164: lotItemId01: = 2906
-##replace: Great Somber Stone: Golden Rune [11] - 6250
+## replace: Great Somber Stone: Golden Rune [11] - 6250
 param ItemLotParam_map: prop lotItemId01 10165: lotItemId01: = 2910
-##replace: Colossal Somber Stones: Golden Rune [13] - 10000
+## replace: Colossal Somber Stones: Golden Rune [13] - 10000
 param ItemLotParam_map: prop lotItemId01 10167: lotItemId01: = 2912
-##replace: Ancient Somber Stone: Hero's Rune [5] - 35000
+## replace: Ancient Somber Stone: Hero's Rune [5] - 35000
 param ItemLotParam_map: prop lotItemId01 10168: lotItemId01: = 2918
 
-##lower: weight of non-shield weapons to 0
+## lower: weight of non-shield weapons to 0
 param EquipParamWeapon: !proprange wepType 65 69 && positive weight: weight: = 0
-##lower: equid load for any endurance by 12
+## lower: equid load for any endurance by 12
 param CalcCorrectGraph: id 220: stageMaxGrowVal0: - 12
 param CalcCorrectGraph: id 220: stageMaxGrowVal1: - 12
 param CalcCorrectGraph: id 220: stageMaxGrowVal2: - 12
