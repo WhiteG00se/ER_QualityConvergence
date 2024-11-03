@@ -13,5 +13,5 @@
 - download latest version of The Convergence with "Convergence ER Downloader.exe" (e.g. into your downloads folder)
 - unzip ERR into the repo folder
 - discard all changed and deleted files with GIT (if there are added files, the gitignore is outdated)
-- unpack "Remove Erdtree.zip" (optional, considerable FPS boost)
+- unpack "Remove Erdtree.zip" into /mod (optional, considerable FPS boost)
 - run Start_Convergence.bat
