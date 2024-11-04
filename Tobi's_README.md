@@ -5,7 +5,8 @@
 - Convergence ER Downloader https://www.nexusmods.com/eldenring/mods/3419?tab=files
 - Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
 - AdjustTheFov, SkipTheIntro, UltrawideFix and UnlockTheFps from ERR: https://discord.gg/rGY3W7xe
-- Remove Erdtree https://www.nexusmods.com/eldenring/mods/1947
+- Remove Erdtree https://www.nexusmods.com/eldenring/mods/1947/?tab=files
+- PostureBarMod https://www.nexusmods.com/eldenring/mods/3405/?tab=files
 
 # how to install / update
 
