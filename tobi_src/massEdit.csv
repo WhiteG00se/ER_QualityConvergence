@@ -20,7 +20,7 @@ param CharaInitParam: idrange 3000 3299: baseMag: = 10
 param CharaInitParam: idrange 3000 3299: baseFai: = 10
 param CharaInitParam: idrange 3000 3299: baseLuc: = 10
 
-## set: range of heals: 40
+## rework: healing incantations
 ## Heal 
 param Bullet: id 10642101: hitRadius: = 40
 ## Great Heal 
