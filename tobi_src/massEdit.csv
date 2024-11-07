@@ -8,7 +8,7 @@ param ShopLineupParam: positive value: value: = 1
 ## replace: GoldenSeeds: Golden Rune [6] - 2000
 param ItemLotParam_map: prop lotItemId01 10010: lotItemId01: = 2905
 ## change: starting flasks 3+1 = 2+1 (golden seeds no longer work)
-param CharaInitParam: idrange 3000 3299 && prop HpEstMax 3 : HpEstMax: = 1
+## param CharaInitParam: idrange 3000 3299 && prop HpEstMax 3 : HpEstMax: = 1
 ## set all starting classes to level 1 / 10 in every stat
 param CharaInitParam: idrange 3000 3299: soulLv: = 1
 param CharaInitParam: idrange 3000 3299: baseVit: = 10
