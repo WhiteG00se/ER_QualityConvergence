@@ -7,8 +7,8 @@ param ShopLineupParam: positive value: value: = 1
 
 ## replace: GoldenSeeds: Golden Rune [6] - 2000
 param ItemLotParam_map: prop lotItemId01 10010: lotItemId01: = 2905
-## change: starting flasks 3+1 = 2+1 (golden seeds no longer work)
-## param CharaInitParam: idrange 3000 3299 && prop HpEstMax 3 : HpEstMax: = 1
+## change: starting flasks 3+1 => 4+1
+param CharaInitParam: idrange 3000 3299 && prop HpEstMax 3 : HpEstMax: = 4
 ## set all starting classes to level 1 / 10 in every stat
 param CharaInitParam: idrange 3000 3299: soulLv: = 1
 param CharaInitParam: idrange 3000 3299: baseVit: = 10
@@ -19,6 +19,9 @@ param CharaInitParam: idrange 3000 3299: baseDex: = 10
 param CharaInitParam: idrange 3000 3299: baseMag: = 10
 param CharaInitParam: idrange 3000 3299: baseFai: = 10
 param CharaInitParam: idrange 3000 3299: baseLuc: = 10
+## starting gift: Golden Seed (10010) => Sacred Tear
+param CharaInitParam: id 2401: Name: = Gift - Sacred Tear
+param CharaInitParam: id 2401: item_03: = 10020
 
 ## rework: healing incantations
 ## Heal 
