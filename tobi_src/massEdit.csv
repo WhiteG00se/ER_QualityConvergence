@@ -19,9 +19,11 @@ param CharaInitParam: idrange 3000 3299: baseDex: = 10
 param CharaInitParam: idrange 3000 3299: baseMag: = 10
 param CharaInitParam: idrange 3000 3299: baseFai: = 10
 param CharaInitParam: idrange 3000 3299: baseLuc: = 10
-## starting gift: Golden Seed (10010) => Sacred Tear
-param CharaInitParam: id 2401: Name: = Gift - Sacred Tear
-param CharaInitParam: id 2401: item_03: = 10020
+## starting gift: Golden Seed (10010) / Sacred Tear (10020) => Golden Rune [10] - 5000
+param CharaInitParam: id 2401: Name: = Gift - Golden Rune [10] - 5000
+param CharaInitParam: id 2401: item_03: = 2909
+param CharaInitParam: id 2402: Name: = Gift - Golden Rune [10] - 5000
+param CharaInitParam: id 2402: item_03: = 2909
 
 ## rework: healing incantations
 ## Heal 
@@ -83,8 +85,7 @@ param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 148
 param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
 param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 
-## Blade of Valor => Bretonnian Sword of Valor
-param EquipParamWeapon: id 2120000: Name: = Bretonnian Longsword
+## Blade of Valor => Bretonnian Longsword
 ## 114 unsheathe / 115 square off
 param EquipParamWeapon: id 2120000: swordArtsParamId: = 114
 ## 50 Scythe
