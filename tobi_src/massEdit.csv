@@ -82,7 +82,7 @@ param EquipParamWeapon: positive physGuardCutRate && !proprange wepType 57 61 : 
 param EquipParamWeapon: proprange staminaGuardDef 1 35  && !proprange wepType 57 61 : staminaGuardDef: = 35
 
 ## Blade of Valor => Bretonnian Sword of Valor
-param EquipParamWeapon: id 2120000: Name: = Bretonnian Sword of Valor
+param EquipParamWeapon: id 2120000: Name: = Bretonnian Longsword
 param EquipParamWeapon: id 2120000: physGuardCutRate: = 100
 param EquipParamWeapon: id 2120000: magGuardCutRate: = 50
 param EquipParamWeapon: id 2120000: fireGuardCutRate: = 50
