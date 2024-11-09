@@ -64,6 +64,9 @@ param ShopLineupParam: prop equipId 10165 && positive sellQuantity: sellQuantity
 param ShopLineupParam: prop equipId 10167 && positive sellQuantity: sellQuantity: = 0
 param ShopLineupParam: prop equipId 10168 && positive sellQuantity: sellQuantity: = 0
 
+## remove rune shops from weapon upgrades
+param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
+
 ## lower: weight of non-shield weapons to 0
 param EquipParamWeapon: !proprange wepType 65 69 && positive weight: weight: = 0
 ## lower: equid load for any endurance by 12 (Val0 used to be same as Val1)
