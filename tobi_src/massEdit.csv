@@ -82,18 +82,31 @@ param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 
 ## Blade of Valor => Bretonnian Sword of Valor
 param EquipParamWeapon: id 2120000: Name: = Bretonnian Longsword
-param EquipParamWeapon: id 2120000: physGuardCutRate: = 100
-param EquipParamWeapon: id 2120000: magGuardCutRate: = 50
-param EquipParamWeapon: id 2120000: fireGuardCutRate: = 50
-param EquipParamWeapon: id 2120000: thunGuardCutRate: = 50
-param EquipParamWeapon: id 2120000: darkGuardCutRate: = 50
-param EquipParamWeapon: id 2120000: poisonGuardResist: = 50
-param EquipParamWeapon: id 2120000: diseaseGuardResist: = 50
-param EquipParamWeapon: id 2120000: bloodGuardResist: = 50
-param EquipParamWeapon: id 2120000: curseGuardResist: = 50
-param EquipParamWeapon: id 2120000: freezeGuardResist: = 50
-param EquipParamWeapon: id 2120000: sleepGuardResist: = 50
-param EquipParamWeapon: id 2120000: madnessGuardResist: = 50
-param EquipParamWeapon: id 2120000: staminaGuardDef: = 55
+## 114 unsheathe / 115 square off
+param EquipParamWeapon: id 2120000: swordArtsParamId: = 114
+## 50 Scythe
+param EquipParamWeapon: id 2120000: wepmotionCategory: = 50
+## 93 light greatsword
+param EquipParamWeapon: id 2120000: wepType: = 93
+## 0 slash
+param EquipParamWeapon: id 2120000: atkAttribute: = 0
+param EquipParamWeapon: id 2120000: isNormalAttackType: = 0
+param EquipParamWeapon: id 2120000: isSlashAttackType: = 1
+## 113 Carian heavy attacks
 param EquipParamWeapon: id 2120000: spAtkcategory: = 113
-param EquipParamWeapon: id 2120000: swordArtsParamId: = 115
+## 25 light greatsword
+param EquipParamWeapon: id 2120000: sortGroupId: = 25
+## block stats
+param EquipParamWeapon: id 2120000: physGuardCutRate: = 100
+param EquipParamWeapon: id 2120000: magGuardCutRate: = 45
+param EquipParamWeapon: id 2120000: fireGuardCutRate: = 45
+param EquipParamWeapon: id 2120000: thunGuardCutRate: = 45
+param EquipParamWeapon: id 2120000: darkGuardCutRate: = 45
+param EquipParamWeapon: id 2120000: poisonGuardResist: = 45
+param EquipParamWeapon: id 2120000: diseaseGuardResist: = 45
+param EquipParamWeapon: id 2120000: bloodGuardResist: = 45
+param EquipParamWeapon: id 2120000: curseGuardResist: = 45
+param EquipParamWeapon: id 2120000: freezeGuardResist: = 45
+param EquipParamWeapon: id 2120000: sleepGuardResist: = 45
+param EquipParamWeapon: id 2120000: madnessGuardResist: = 45
+param EquipParamWeapon: id 2120000: staminaGuardDef: = 55
