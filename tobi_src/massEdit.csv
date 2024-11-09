@@ -53,6 +53,18 @@ param ItemLotParam_map: prop lotItemId01 10167: lotItemId01: = 2912
 ## replace: Ancient Somber Stone: Hero's Rune [5] - 35000
 param ItemLotParam_map: prop lotItemId01 10168: lotItemId01: = 2918
 
+## remove all smithing stones from shops
+param ShopLineupParam: prop equipId 10101 && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId 10105 && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId 10107 && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId 10140 && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId 10160 && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId 10164 && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId 10165 && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId 10167 && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId 10168 && positive sellQuantity: sellQuantity: = 0
+
+
 ## lower: weight of non-shield weapons to 0
 param EquipParamWeapon: !proprange wepType 65 69 && positive weight: weight: = 0
 ## lower: equid load for any endurance by 12 (Val0 used to be same as Val1)
