@@ -76,10 +76,9 @@ param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 60
 param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 108
 param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 148
 
-## give every weapon and shield aside from staffs (57) and seals (61)
-## 100% phys blockand at least 35 guard boost
-param EquipParamWeapon: positive physGuardCutRate && !proprange wepType 57 61 : physGuardCutRate: = 100
-param EquipParamWeapon: proprange staminaGuardDef 1 35  && !proprange wepType 57 61 : staminaGuardDef: = 35
+## give every weapon and shield 100% phys block and at least 35 guard boost
+param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
+param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 
 ## Blade of Valor => Bretonnian Sword of Valor
 param EquipParamWeapon: id 2120000: Name: = Bretonnian Longsword
