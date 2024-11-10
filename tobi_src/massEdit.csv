@@ -69,7 +69,7 @@ param ShopLineupParam: prop equipId 10165 && positive sellQuantity: sellQuantity
 param ShopLineupParam: prop equipId 10167 && positive sellQuantity: sellQuantity: = 0
 param ShopLineupParam: prop equipId 10168 && positive sellQuantity: sellQuantity: = 0
 
-## remove rune shops from weapon upgrades
+## remove rune costs from weapon upgrades
 param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
 
 ## weight of non-shield weapons to 0
