@@ -86,21 +86,23 @@ param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
 param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 
 ## Blade of Valor => Bretonnian Longsword
+## default is 218
+param EquipParamWeapon: id 2120000: behaviorVariationId: = 603
 ## 114 unsheathe / 115 square off
 param EquipParamWeapon: id 2120000: swordArtsParamId: = 114
-## stock was 120 attackBasePhysics
-param EquipParamWeapon: id 2120000: attackBasePhysics: = 125
-## 50 Scythe
-param EquipParamWeapon: id 2120000: wepmotionCategory: = 50
+## default is 120
+param EquipParamWeapon: id 2120000: attackBasePhysics: = 110
+## 50 Scythe / 39 heavy thrusting sword
+param EquipParamWeapon: id 2120000: wepmotionCategory: = 39
 ## 93 light greatsword
 param EquipParamWeapon: id 2120000: wepType: = 93
-## 0 slash
-param EquipParamWeapon: id 2120000: atkAttribute: = 0
+## 0 slash / 2 pierce
+param EquipParamWeapon: id 2120000: atkAttribute: = 2
 param EquipParamWeapon: id 2120000: atkAttribute2: = 0
 param EquipParamWeapon: id 2120000: isNormalAttackType: = 0
 param EquipParamWeapon: id 2120000: isBlowAttackType: = 0
 param EquipParamWeapon: id 2120000: isSlashAttackType: = 1
-param EquipParamWeapon: id 2120000: isThrustAttackType: = 0
+param EquipParamWeapon: id 2120000: isThrustAttackType: = 1
 ## 113 Carian heavy attacks
 param EquipParamWeapon: id 2120000: spAtkcategory: = 113
 ## 25 light greatsword
