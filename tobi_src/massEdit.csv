@@ -5,9 +5,9 @@ param EquipParamProtector: positive sellValue: sellValue: = 1
 param EquipParamWeapon: positive sellValue: sellValue: = 1
 param ShopLineupParam: positive value: value: = 1
 
-## replace: GoldenSeeds: Golden Rune [6] - 2000
+##  GoldenSeeds => Golden Rune [6] - 2000
 param ItemLotParam_map: prop lotItemId01 10010: lotItemId01: = 2905
-## change: starting flasks 3+1 => 4+1
+## starting flasks 3+1 => 4+1
 param CharaInitParam: idrange 3000 3299 && prop HpEstMax 3 : HpEstMax: = 4
 ## set all starting classes to level 1 / 10 in every stat
 param CharaInitParam: idrange 3000 3299: soulLv: = 1
@@ -38,24 +38,24 @@ param Bullet: id 10642401: hitRadiusMax: = 40
 ## Ancestral Conduit (already 40)
 param Bullet: id 10744200: hitRadius: = 40
 
-## replace: Smithing Stone: Golden Rune [2] - 400
+## Smithing Stone => Golden Rune [2] - 400
 param ItemLotParam_map: prop lotItemId01 10101: lotItemId01: = 2901
-## replace: Large Smithing Stone: Golden Rune [6] - 2000
+## Large Smithing Stone => Golden Rune [6] - 2000
 param ItemLotParam_map: prop lotItemId01 10105: lotItemId01: = 2905
-## replace: Great Smithing Stone: Golden Rune [10] - 5000
+## Great Smithing Stone => Golden Rune [10] - 5000
 param ItemLotParam_map: prop lotItemId01 10107: lotItemId01: = 2909
-## replace: Ancient Smithing Stone: Hero's Rune [5] - 35000
+## Ancient Smithing Stone => Hero's Rune [5] - 35000
 param ItemLotParam_map: prop lotItemId01 10140: lotItemId01: = 2918
 
-## replace: Somber Stone: Golden Rune [3] - 800
+## Somber Stone => Golden Rune [3] - 800
 param ItemLotParam_map: prop lotItemId01 10160: lotItemId01: = 2902
-## replace: Large Somber Stone: Golden Rune [7] - 2500
+## Large Somber Stone => Golden Rune [7] - 2500
 param ItemLotParam_map: prop lotItemId01 10164: lotItemId01: = 2906
-## replace: Great Somber Stone: Golden Rune [11] - 6250
+## Great Somber Stone => Golden Rune [11] - 6250
 param ItemLotParam_map: prop lotItemId01 10165: lotItemId01: = 2910
-## replace: Colossal Somber Stones: Golden Rune [13] - 10000
+## Colossal Somber Stones => Golden Rune [13] - 10000
 param ItemLotParam_map: prop lotItemId01 10167: lotItemId01: = 2912
-## replace: Ancient Somber Stone: Hero's Rune [5] - 35000
+## Ancient Somber Stone => Hero's Rune [5] - 35000
 param ItemLotParam_map: prop lotItemId01 10168: lotItemId01: = 2918
 
 ## remove all smithing stones from shops
@@ -72,14 +72,14 @@ param ShopLineupParam: prop equipId 10168 && positive sellQuantity: sellQuantity
 ## remove rune shops from weapon upgrades
 param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
 
-## lower: weight of non-shield weapons to 0
+## weight of non-shield weapons to 0
 param EquipParamWeapon: !proprange wepType 65 69 && positive weight: weight: = 0
-## lower: equid load for any endurance by 12 (Val0 used to be same as Val1)
-param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
-param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 33
-param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 60
-param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 108
-param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 148
+## lower equid load for any endurance by 15 (Val0 used to be same as Val1)
+param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 7
+param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 30
+param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 57
+param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 105
+param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 145
 
 ## give every weapon and shield 100% phys block and at least 35 guard boost
 param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
@@ -88,14 +88,19 @@ param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 ## Blade of Valor => Bretonnian Longsword
 ## 114 unsheathe / 115 square off
 param EquipParamWeapon: id 2120000: swordArtsParamId: = 114
+## stock was 120 attackBasePhysics
+param EquipParamWeapon: id 2120000: attackBasePhysics: = 125
 ## 50 Scythe
 param EquipParamWeapon: id 2120000: wepmotionCategory: = 50
 ## 93 light greatsword
 param EquipParamWeapon: id 2120000: wepType: = 93
 ## 0 slash
 param EquipParamWeapon: id 2120000: atkAttribute: = 0
+param EquipParamWeapon: id 2120000: atkAttribute2: = 0
 param EquipParamWeapon: id 2120000: isNormalAttackType: = 0
+param EquipParamWeapon: id 2120000: isBlowAttackType: = 0
 param EquipParamWeapon: id 2120000: isSlashAttackType: = 1
+param EquipParamWeapon: id 2120000: isThrustAttackType: = 0
 ## 113 Carian heavy attacks
 param EquipParamWeapon: id 2120000: spAtkcategory: = 113
 ## 25 light greatsword
