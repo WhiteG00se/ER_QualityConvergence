@@ -1,6 +1,7 @@
 ## set all prices to 1 aside for runes (inclusive)
 param EquipParamGoods: positive sellValue && !idrange 2900 2919: sellValue: = 1
 param EquipParamAccessory: positive sellValue: sellValue: = 1
+param EquipParamGem: positive sellValue: sellValue: = 1
 param EquipParamProtector: positive sellValue: sellValue: = 1
 param EquipParamWeapon: positive sellValue: sellValue: = 1
 param ShopLineupParam: positive value: value: = 1
