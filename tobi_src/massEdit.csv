@@ -91,7 +91,7 @@ param EquipParamWeapon: id 2120000: behaviorVariationId: = 603
 ## 114 unsheathe / 115 square off
 param EquipParamWeapon: id 2120000: swordArtsParamId: = 114
 ## default is 120
-param EquipParamWeapon: id 2120000: attackBasePhysics: = 110
+param EquipParamWeapon: id 2120000: attackBasePhysics: = 120
 ## 50 Scythe / 39 heavy thrusting sword
 param EquipParamWeapon: id 2120000: wepmotionCategory: = 39
 ## 93 light greatsword
