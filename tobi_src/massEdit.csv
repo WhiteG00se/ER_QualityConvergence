@@ -6,6 +6,11 @@ param EquipParamProtector: positive sellValue: sellValue: = 1
 param EquipParamWeapon: positive sellValue: sellValue: = 1
 param ShopLineupParam: positive value: value: = 1
 
+## Twin Maidens: Twig (6070/2/1) => Lost Ashes of War (10070/3/-1)
+param ShopLineupParam: id 101822: equipId: = 10070
+param ShopLineupParam: id 101822: equipType: = 3
+param ShopLineupParam: id 101822: sellQuantity: = -1 
+
 ##  GoldenSeeds => Golden Rune [6] - 2000
 param ItemLotParam_map: prop lotItemId01 10010: lotItemId01: = 2905
 ## starting flasks 3+1 => 3+1
