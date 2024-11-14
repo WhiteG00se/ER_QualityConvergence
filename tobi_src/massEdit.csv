@@ -170,7 +170,7 @@ param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 25
 ## default is 218
 param EquipParamWeapon: id 2120000: behaviorVariationId: = 218
 ## 114 unsheathe / 115 square off
-param EquipParamWeapon: id 2120000: swordArtsParamId: = 115
+param EquipParamWeapon: id 2120000: swordArtsParamId: = 114
 ## default is 120
 param EquipParamWeapon: id 2120000: attackBasePhysics: = 120
 ## 50 Scythe / 39 heavy thrusting sword / 30 axe / 23 straight sword
