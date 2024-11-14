@@ -163,6 +163,9 @@ param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 145
 param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
 param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 
+## change arrow and bolt limits to 255
+param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 255
+
 ## Blade of Valor => Bretonnian Longsword
 ## default is 218
 param EquipParamWeapon: id 2120000: behaviorVariationId: = 218
