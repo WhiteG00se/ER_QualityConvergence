@@ -160,7 +160,7 @@ param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 105
 param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 145
 
 ## give every weapon and shield 100% phys block and at least 35 guard boost
-param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
+param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 95
 param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 
 ## change arrow and bolt limits to 255
@@ -189,7 +189,7 @@ param EquipParamWeapon: id 2120000: spAtkcategory: = 113
 ## 25 light greatsword / 20 straight sword
 param EquipParamWeapon: id 2120000: sortGroupId: = 20
 ## block stats
-param EquipParamWeapon: id 2120000: physGuardCutRate: = 100
+param EquipParamWeapon: id 2120000: physGuardCutRate: = 95
 param EquipParamWeapon: id 2120000: magGuardCutRate: = 45
 param EquipParamWeapon: id 2120000: fireGuardCutRate: = 45
 param EquipParamWeapon: id 2120000: thunGuardCutRate: = 45
