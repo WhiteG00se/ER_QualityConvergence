@@ -6,7 +6,7 @@ param EquipParamProtector: positive sellValue: sellValue: = 0
 param EquipParamWeapon: positive sellValue: sellValue: = 0
 param ShopLineupParam: positive value: value: = 0
 
-## Twin Maidens: Twig (6070/2/1) => Lost Ashes of War (10070/3/-1)
+## Twin Maidens Shop - Twig (6070/2/1) => Lost Ashes of War (10070/3/-1)
 param ShopLineupParam: id 101822: equipId: = 10070
 param ShopLineupParam: id 101822: equipType: = 3
 param ShopLineupParam: id 101822: sellQuantity: = -1 
@@ -33,7 +33,7 @@ param CharaInitParam: id 2401: item_03: = 2909
 param CharaInitParam: id 2402: Name: = Gift - Golden Rune [10] - 5000
 param CharaInitParam: id 2402: item_03: = 2909
 
-## rework: healing incantations
+## buff healing incantation radius
 ## Heal 
 param Bullet: id 10642101: hitRadius: = 40
 ## Great Heal 
