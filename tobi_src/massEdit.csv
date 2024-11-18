@@ -35,14 +35,14 @@ param CharaInitParam: id 2402: item_03: = 2909
 
 ## buff healing incantation radius
 ## Heal 
-param Bullet: id 10642101: hitRadius: = 40
+param Bullet: id 10642101: hitRadius: = 20
 ## Great Heal 
-param Bullet: id 10642201: hitRadius: = 40
+param Bullet: id 10642201: hitRadius: = 20
 ## Lord's Heal
-param Bullet: id 10642301: hitRadius: = 40
-## Erdtree Heal  (seems to be chargable)
-param Bullet: id 10642401: hitRadius: = 40
-param Bullet: id 10642401: hitRadiusMax: = 40
+param Bullet: id 10642301: hitRadius: = 20
+## Erdtree Heal
+param Bullet: id 10642401: hitRadius: = 20
+param Bullet: id 10642401: hitRadiusMax: = 20
 ## Ancestral Conduit (already 40)
 param Bullet: id 10744200: hitRadius: = 40
 
@@ -279,12 +279,17 @@ param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 145
 param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 95
 param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 
-## remove all weapon requirements (not for shields and catalysts)
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 99: properStrength: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 99: properAgility: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 99: properMagic: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 99: properFaith: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 99: properLuck: = 10
+## lower weapon stat requirements (not for shields and catalysts)
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 20: properStrength: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 21 99: properStrength: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 20: properAgility: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 21 99: properAgility: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 20: properMagic: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 21 99: properMagic: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 20: properFaith: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 21 99: properFaith: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 20: properLuck: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 21 99: properLuck: = 20
 
 ## change arrow and bolt limits to 255
 param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 255
