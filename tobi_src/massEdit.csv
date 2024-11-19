@@ -294,39 +294,17 @@ param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 21 99: 
 ## change arrow and bolt limits to 255
 param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 255
 
-## Blade of Valor => Bretonnian Longsword
-## default is 218
-param EquipParamWeapon: id 2120000: behaviorVariationId: = 218
-## 114 unsheathe / 115 square off
-param EquipParamWeapon: id 2120000: swordArtsParamId: = 114
-## default is 120
-param EquipParamWeapon: id 2120000: attackBasePhysics: = 120
-## 50 Scythe / 39 heavy thrusting sword / 30 axe / 23 straight sword
-param EquipParamWeapon: id 2120000: wepmotionCategory: = 23
-## 93 light greatsword / 3 straight sword
-param EquipParamWeapon: id 2120000: wepType: = 3
-## 0 slash / 2 pierce
-param EquipParamWeapon: id 2120000: atkAttribute: = 0
-param EquipParamWeapon: id 2120000: atkAttribute2: = 0
-param EquipParamWeapon: id 2120000: isNormalAttackType: = 0
-param EquipParamWeapon: id 2120000: isBlowAttackType: = 0
-param EquipParamWeapon: id 2120000: isSlashAttackType: = 1
-param EquipParamWeapon: id 2120000: isThrustAttackType: = 0
-## 113 Carian heavy attacks
-param EquipParamWeapon: id 2120000: spAtkcategory: = 113
-## 25 light greatsword / 20 straight sword
-param EquipParamWeapon: id 2120000: sortGroupId: = 20
-## block stats
-param EquipParamWeapon: id 2120000: physGuardCutRate: = 95
-param EquipParamWeapon: id 2120000: magGuardCutRate: = 45
-param EquipParamWeapon: id 2120000: fireGuardCutRate: = 45
-param EquipParamWeapon: id 2120000: thunGuardCutRate: = 45
-param EquipParamWeapon: id 2120000: darkGuardCutRate: = 45
-param EquipParamWeapon: id 2120000: poisonGuardResist: = 45
-param EquipParamWeapon: id 2120000: diseaseGuardResist: = 45
-param EquipParamWeapon: id 2120000: bloodGuardResist: = 45
-param EquipParamWeapon: id 2120000: curseGuardResist: = 45
-param EquipParamWeapon: id 2120000: freezeGuardResist: = 45
-param EquipParamWeapon: id 2120000: sleepGuardResist: = 45
-param EquipParamWeapon: id 2120000: madnessGuardResist: = 45
-param EquipParamWeapon: id 2120000: staminaGuardDef: = 60
+## buff guard of weapons with heavy attack block
+param EquipParamWeapon: prop spAtkcategory 113 && proprange staminaGuardDef 0 60: staminaGuardDef: = 60
+param EquipParamWeapon: prop spAtkcategory 113 && proprange physGuardCutRate 0 95: physGuardCutRate: = 95
+param EquipParamWeapon: prop spAtkcategory 113 && proprange magGuardCutRate 0 45: magGuardCutRate: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange fireGuardCutRate 0 45: fireGuardCutRate: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange thunGuardCutRate 0 45: thunGuardCutRate: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange darkGuardCutRate 0 45: darkGuardCutRate: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange poisonGuardResist 0 45: poisonGuardResist: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange diseaseGuardResist 0 45: diseaseGuardResist: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange bloodGuardResist 0 45: bloodGuardResist: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange curseGuardResist 0 45: curseGuardResist: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange freezeGuardResist 0 45: freezeGuardResist: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange sleepGuardResist 0 45: sleepGuardResist: = 45
+param EquipParamWeapon: prop spAtkcategory 113 && proprange madnessGuardResist 0 45: madnessGuardResist: = 45
