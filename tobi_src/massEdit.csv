@@ -280,16 +280,16 @@ param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 95
 param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 
 ## lower weapon stat requirements (not for shields and catalysts)
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 20: properStrength: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 21 99: properStrength: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 20: properAgility: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 21 99: properAgility: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 20: properMagic: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 21 99: properMagic: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 20: properFaith: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 21 99: properFaith: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 20: properLuck: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 21 99: properLuck: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 19: properStrength: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 20 99: properStrength: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 19: properAgility: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 20 99: properAgility: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 19: properMagic: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 20 99: properMagic: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 19: properFaith: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 20 99: properFaith: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 19: properLuck: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 20 99: properLuck: = 20
 
 ## change arrow and bolt limits to 255
 param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 255
