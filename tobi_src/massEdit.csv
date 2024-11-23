@@ -291,9 +291,6 @@ param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 20 99:
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 19: properLuck: = 10
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 20 99: properLuck: = 20
 
-## change arrow and bolt limits to 255
-param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 255
-
 ## buff guard of weapons with heavy attack block
 param EquipParamWeapon: prop spAtkcategory 113 && proprange staminaGuardDef 0 60: staminaGuardDef: = 60
 param EquipParamWeapon: prop spAtkcategory 113 && proprange physGuardCutRate 0 95: physGuardCutRate: = 95
