@@ -16,3 +16,13 @@
 - discard all changed and deleted files with GIT (if there are added files, the gitignore is outdated)
 - unpack "Remove Erdtree.zip" into /mod (optional, considerable FPS boost)
 - run Start_Convergence.bat
+
+## large coop group ideas / toDos:
+
+- duplicate enemy spawns
+- nerf / remove shields
+- checking healing ranges again, maybe I missed some
+- nerf healings
+- flask amount?
+- nerf stagger
+- high dmg / low tankiness ememies
