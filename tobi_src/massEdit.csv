@@ -4,7 +4,9 @@ param EquipParamAccessory: positive sellValue: sellValue: = 0
 param EquipParamGem: positive sellValue: sellValue: = 0
 param EquipParamProtector: positive sellValue: sellValue: = 0
 param EquipParamWeapon: positive sellValue: sellValue: = 0
-param ShopLineupParam: positive value: value: = 0
+## costType 0 are runes
+param ShopLineupParam: proprange value 0 999999 && prop costType 0: value: = 0
+param ShopLineupParam: proprange value 0 999999 && !prop costType 0: value: = 1
 
 ## Twin Maidens Shop - Twig (6070/2/1) => Lost Ashes of War (10070/3/-1)
 param ShopLineupParam: id 101822: equipId: = 10070
