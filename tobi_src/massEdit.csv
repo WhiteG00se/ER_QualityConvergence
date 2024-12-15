@@ -13,10 +13,10 @@ param ShopLineupParam: id 101822: equipId: = 10070
 param ShopLineupParam: id 101822: equipType: = 3
 param ShopLineupParam: id 101822: sellQuantity: = -1 
 
-## GoldenSeeds => Golden Rune [6] - 2000
-param ItemLotParam_map: prop lotItemId01 10010: lotItemId01: = 2905
-## remove all GoldenSeeds from shops
-param ShopLineupParam: prop equipId 10010 && positive sellQuantity: sellQuantity: = 0
+## GoldenSeeds on map => Sacred Tear
+param ItemLotParam_map: prop lotItemId01 10010: lotItemId01: = 10020
+## GoldenSeeds in shop => Sacred Tear
+param ShopLineupParam: prop equipId 10010 && positive sellQuantity: equipId: = 10020
 ## starting flasks 3+1 => 4+1
 param CharaInitParam: idrange 3000 3299 && positive HpEstMax  : HpEstMax: = 4
 ## set all starting classes to level 1 / 10 in every stat
@@ -29,11 +29,11 @@ param CharaInitParam: idrange 3000 3299: baseDex: = 10
 param CharaInitParam: idrange 3000 3299: baseMag: = 10
 param CharaInitParam: idrange 3000 3299: baseFai: = 10
 param CharaInitParam: idrange 3000 3299: baseLuc: = 10
-## starting gift: Golden Seed (10010) / Sacred Tear (10020) => Golden Rune [10] - 5000
-param CharaInitParam: id 2401: Name: = Gift - Golden Rune [10] - 5000
-param CharaInitParam: id 2401: item_03: = 2909
-param CharaInitParam: id 2402: Name: = Gift - Golden Rune [10] - 5000
-param CharaInitParam: id 2402: item_03: = 2909
+## starting gift: Golden Seed (10010) / Sacred Tear (10020) => Golden Rune [12] - 7500
+param CharaInitParam: id 2401: Name: = Gift - Golden Rune [12] - 7500
+param CharaInitParam: id 2401: item_03: = 2911
+param CharaInitParam: id 2402: Name: = Gift - Golden Rune [12] - 7500
+param CharaInitParam: id 2402: item_03: = 2911
 
 ## buff healing incantation radius
 ## Heal 

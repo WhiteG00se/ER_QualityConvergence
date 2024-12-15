@@ -20,7 +20,6 @@
 ## large coop group ideas / toDos:
 
 - checking healing ranges again, maybe I missed some
-- nerf healings
-- flask amount?
+- healing spell mana costs x3
 - nerf stagger
 - high dmg / low tankiness ememies
