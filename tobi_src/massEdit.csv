@@ -4,7 +4,7 @@ param EquipParamAccessory: positive sellValue: sellValue: = 0
 param EquipParamGem: positive sellValue: sellValue: = 0
 param EquipParamProtector: positive sellValue: sellValue: = 0
 param EquipParamWeapon: positive sellValue: sellValue: = 0
-## costType 0 are runes
+## costType 0 means runes are the currency
 param ShopLineupParam: proprange value 0 999999 && prop costType 0: value: = 0
 param ShopLineupParam: proprange value 0 999999 && !prop costType 0: value: = 1
 
@@ -244,7 +244,7 @@ param ItemLotParam_enemy: prop lotItemId06 10919: lotItemId06: = 2918
 param ItemLotParam_enemy: prop lotItemId07 10919: lotItemId07: = 2918
 param ItemLotParam_enemy: prop lotItemId08 10919: lotItemId08: = 2918
 
-## remove all smithing stones from shops
+## remove all smithing stones from shops, unless an infinite quantity is sold
 param ShopLineupParam: prop equipId 10101 && positive sellQuantity: sellQuantity: = 0
 param ShopLineupParam: prop equipId 10105 && positive sellQuantity: sellQuantity: = 0
 param ShopLineupParam: prop equipId 10107 && positive sellQuantity: sellQuantity: = 0
@@ -255,7 +255,7 @@ param ShopLineupParam: prop equipId 10165 && positive sellQuantity: sellQuantity
 param ShopLineupParam: prop equipId 10167 && positive sellQuantity: sellQuantity: = 0
 param ShopLineupParam: prop equipId 10168 && positive sellQuantity: sellQuantity: = 0
 
-## remove all gloveworts from shops
+## remove all gloveworts from shops, unless an infinite quantity is sold
 param ShopLineupParam: prop equipId 10900 && positive sellQuantity: sellQuantity: = 0
 param ShopLineupParam: prop equipId 10903 && positive sellQuantity: sellQuantity: = 0
 param ShopLineupParam: prop equipId 10906 && positive sellQuantity: sellQuantity: = 0
