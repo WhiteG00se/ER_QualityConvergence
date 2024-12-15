@@ -270,14 +270,19 @@ param ShopLineupParam: prop equipId 10919 && positive sellQuantity: sellQuantity
 ## remove rune costs from weapon upgrades
 param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
 
-## weight of non-shield weapons to 0
-param EquipParamWeapon: !proprange wepType 65 69 && positive weight: weight: = 0
-## lower equid load for any endurance by 15 (Val0 used to be same as Val1)
-param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 7
-param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 30
-param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 57
-param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 105
-param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 145
+## buff equid load gain from endurance by a lot
+param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
+param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 50
+param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 100
+param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 200
+param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 250
+
+param CalcCorrectGraph: id 220: stageMaxVal0: = 1
+param CalcCorrectGraph: id 220: stageMaxVal1: = 10
+param CalcCorrectGraph: id 220: stageMaxVal2: = 30
+param CalcCorrectGraph: id 220: stageMaxVal3: = 60
+param CalcCorrectGraph: id 220: stageMaxVal4: = 99
+
 
 ## give every weapon and shield 100% phys block and at least 35 guard boost
 param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 95
