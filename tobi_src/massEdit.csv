@@ -270,47 +270,81 @@ param ShopLineupParam: prop equipId 10919 && positive sellQuantity: sellQuantity
 ## remove rune costs from weapon upgrades
 param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
 
+## lower weapon stat requirements (not for shields and catalysts)
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 15: properStrength: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 15: properAgility: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 99: properMagic: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 99: properFaith: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 99: properLuck: = 10
+
 ## buff equid load gain from endurance by a lot
 param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
 param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 50
 param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 100
 param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 200
 param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 250
-
 param CalcCorrectGraph: id 220: stageMaxVal0: = 1
 param CalcCorrectGraph: id 220: stageMaxVal1: = 10
 param CalcCorrectGraph: id 220: stageMaxVal2: = 30
 param CalcCorrectGraph: id 220: stageMaxVal3: = 60
 param CalcCorrectGraph: id 220: stageMaxVal4: = 99
 
+## block class 1 (check wiki)
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: staminaGuardDef: = 47
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: physGuardCutRate: = 70
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: magGuardCutRate: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: fireGuardCutRate: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: thunGuardCutRate: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: darkGuardCutRate: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: poisonGuardResist: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: diseaseGuardResist: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: bloodGuardResist: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: curseGuardResist: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: freezeGuardResist: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: sleepGuardResist: = 60
+param EquipParamWeapon: prop wepType 65|67|69|57|61|90|91: madnessGuardResist: = 60
 
-## give every weapon and shield 100% phys block and at least 35 guard boost
-param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 95
-param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
+## block class 2 (check wiki)
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: staminaGuardDef: = 77
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: physGuardCutRate: = 82
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: magGuardCutRate: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: fireGuardCutRate: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: thunGuardCutRate: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: darkGuardCutRate: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: poisonGuardResist: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: diseaseGuardResist: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: bloodGuardResist: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: curseGuardResist: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: freezeGuardResist: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: sleepGuardResist: = 72
+param EquipParamWeapon: prop wepType 1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95: madnessGuardResist: = 72
 
-## lower weapon stat requirements (not for shields and catalysts)
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 19: properStrength: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 20 99: properStrength: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 19: properAgility: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 20 99: properAgility: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 19: properMagic: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 20 99: properMagic: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 19: properFaith: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 20 99: properFaith: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 19: properLuck: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 20 99: properLuck: = 20
+## block class 3 (check wiki)
+param EquipParamWeapon: prop wepType 7|23|29|41: staminaGuardDef: = 82
+param EquipParamWeapon: prop wepType 7|23|29|41: physGuardCutRate: = 85
+param EquipParamWeapon: prop wepType 7|23|29|41: magGuardCutRate: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: fireGuardCutRate: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: thunGuardCutRate: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: darkGuardCutRate: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: poisonGuardResist: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: diseaseGuardResist: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: bloodGuardResist: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: curseGuardResist: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: freezeGuardResist: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: sleepGuardResist: = 75
+param EquipParamWeapon: prop wepType 7|23|29|41: madnessGuardResist: = 75
 
-## buff guard of weapons with heavy attack block
-param EquipParamWeapon: prop spAtkcategory 113 && proprange staminaGuardDef 0 60: staminaGuardDef: = 60
-param EquipParamWeapon: prop spAtkcategory 113 && proprange physGuardCutRate 0 95: physGuardCutRate: = 95
-param EquipParamWeapon: prop spAtkcategory 113 && proprange magGuardCutRate 0 45: magGuardCutRate: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange fireGuardCutRate 0 45: fireGuardCutRate: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange thunGuardCutRate 0 45: thunGuardCutRate: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange darkGuardCutRate 0 45: darkGuardCutRate: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange poisonGuardResist 0 45: poisonGuardResist: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange diseaseGuardResist 0 45: diseaseGuardResist: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange bloodGuardResist 0 45: bloodGuardResist: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange curseGuardResist 0 45: curseGuardResist: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange freezeGuardResist 0 45: freezeGuardResist: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange sleepGuardResist 0 45: sleepGuardResist: = 45
-param EquipParamWeapon: prop spAtkcategory 113 && proprange madnessGuardResist 0 45: madnessGuardResist: = 45
+## block class 4 (check wiki)
+param EquipParamWeapon: prop wepType 15|16|25|28: staminaGuardDef: = 85
+param EquipParamWeapon: prop wepType 15|16|25|28: physGuardCutRate: = 88
+param EquipParamWeapon: prop wepType 15|16|25|28: magGuardCutRate: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: fireGuardCutRate: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: thunGuardCutRate: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: darkGuardCutRate: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: poisonGuardResist: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: diseaseGuardResist: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: bloodGuardResist: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: curseGuardResist: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: freezeGuardResist: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: sleepGuardResist: = 78
+param EquipParamWeapon: prop wepType 15|16|25|28: madnessGuardResist: = 78

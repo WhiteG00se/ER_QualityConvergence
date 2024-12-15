@@ -19,7 +19,6 @@
 
 ## large coop group ideas / toDos:
 
-- nerf / remove shields (better block for melee, worse for ranged/caster)
 - checking healing ranges again, maybe I missed some
 - nerf healings
 - flask amount?
