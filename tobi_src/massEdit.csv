@@ -281,8 +281,8 @@ param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 99: 
 param CalcCorrectGraph: id ^220$: stageMaxGrowVal0: = 10
 param CalcCorrectGraph: id ^220$: stageMaxGrowVal1: = 40
 param CalcCorrectGraph: id ^220$: stageMaxGrowVal2: = 100
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal3: = 200
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal4: = 210
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal3: = 180
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal4: = 190
 param CalcCorrectGraph: id ^220$: stageMaxVal0: = 1
 param CalcCorrectGraph: id ^220$: stageMaxVal1: = 10
 param CalcCorrectGraph: id ^220$: stageMaxVal2: = 30
