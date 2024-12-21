@@ -139,6 +139,34 @@ param EquipParamWeapon: prop wepType ^(15|16|25|28)$: freezeGuardResist: = 76
 param EquipParamWeapon: prop wepType ^(15|16|25|28)$: sleepGuardResist: = 76
 param EquipParamWeapon: prop wepType ^(15|16|25|28)$: madnessGuardResist: = 76
 
+## UPGRADE : ITEMS : FROM : HERE : ON : 123456789012345678901234567890123456789012345678901234567890
+
+## remove rune costs from weapon upgrades
+param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
+
+## remove all smithing stones from shops, unless an infinite quantity is sold
+param ShopLineupParam: prop equipId ^10101$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10105$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10107$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10140$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10160$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10164$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10165$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10167$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10168$ && positive sellQuantity: sellQuantity: = 0
+
+## remove all gloveworts from shops, unless an infinite quantity is sold
+param ShopLineupParam: prop equipId ^10900$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10903$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10906$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10908$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10909$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10910$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10913$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10916$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10918$ && positive sellQuantity: sellQuantity: = 0
+param ShopLineupParam: prop equipId ^10919$ && positive sellQuantity: sellQuantity: = 0
+
 ## Smithing Stone => Golden Rune [2] - 400
 param ItemLotParam_map: prop lotItemId01 ^10101$: lotItemId01: = 2901
 param ItemLotParam_enemy: prop lotItemId01 ^10101$: lotItemId01: = 2901
@@ -332,30 +360,3 @@ param ItemLotParam_enemy: prop lotItemId05 ^10919$: lotItemId05: = 2918
 param ItemLotParam_enemy: prop lotItemId06 ^10919$: lotItemId06: = 2918
 param ItemLotParam_enemy: prop lotItemId07 ^10919$: lotItemId07: = 2918
 param ItemLotParam_enemy: prop lotItemId08 ^10919$: lotItemId08: = 2918
-
-## remove all smithing stones from shops, unless an infinite quantity is sold
-param ShopLineupParam: prop equipId ^10101$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10105$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10107$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10140$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10160$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10164$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10165$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10167$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10168$ && positive sellQuantity: sellQuantity: = 0
-
-## remove all gloveworts from shops, unless an infinite quantity is sold
-param ShopLineupParam: prop equipId ^10900$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10903$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10906$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10908$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10909$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10910$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10913$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10916$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10918$ && positive sellQuantity: sellQuantity: = 0
-param ShopLineupParam: prop equipId ^10919$ && positive sellQuantity: sellQuantity: = 0
-
-## remove rune costs from weapon upgrades
-param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
-
