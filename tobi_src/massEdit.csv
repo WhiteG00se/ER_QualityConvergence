@@ -50,6 +50,18 @@ param Bullet: id ^210640001$: hitRadius: = 40
 ## Ancestral Conduit (default 40)
 param Bullet: id ^10744200$: hitRadius: = 60
 
+## buff equid load gain from endurance by a lot
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal0: = 10
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal1: = 40
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal2: = 100
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal3: = 180
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal4: = 190
+param CalcCorrectGraph: id ^220$: stageMaxVal0: = 1
+param CalcCorrectGraph: id ^220$: stageMaxVal1: = 10
+param CalcCorrectGraph: id ^220$: stageMaxVal2: = 30
+param CalcCorrectGraph: id ^220$: stageMaxVal3: = 80
+param CalcCorrectGraph: id ^220$: stageMaxVal4: = 99
+
 ## Smithing Stone => Golden Rune [2] - 400
 param ItemLotParam_map: prop lotItemId01 ^10101$: lotItemId01: = 2901
 param ItemLotParam_enemy: prop lotItemId01 ^10101$: lotItemId01: = 2901
@@ -276,18 +288,6 @@ param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 1
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 99: properMagic: = 10
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 99: properFaith: = 10
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 99: properLuck: = 10
-
-## buff equid load gain from endurance by a lot
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal0: = 10
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal1: = 40
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal2: = 100
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal3: = 180
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal4: = 190
-param CalcCorrectGraph: id ^220$: stageMaxVal0: = 1
-param CalcCorrectGraph: id ^220$: stageMaxVal1: = 10
-param CalcCorrectGraph: id ^220$: stageMaxVal2: = 30
-param CalcCorrectGraph: id ^220$: stageMaxVal3: = 80
-param CalcCorrectGraph: id ^220$: stageMaxVal4: = 99
 
 ## block class 1 (check wiki)
 param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: staminaGuardDef: = 47
