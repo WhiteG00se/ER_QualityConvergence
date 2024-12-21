@@ -62,6 +62,23 @@ param CalcCorrectGraph: id ^220$: stageMaxVal2: = 30
 param CalcCorrectGraph: id ^220$: stageMaxVal3: = 80
 param CalcCorrectGraph: id ^220$: stageMaxVal4: = 99
 
+## lower weapon stat requirements (not for shields and catalysts)
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 15: properStrength: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 15: properAgility: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 15: properMagic: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 15: properFaith: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 15: properLuck: = 10
+
+## change weight and requrements of medium shields (67), thrusting shields (90) and heavy shields (69)
+param EquipParamWeapon: prop wepType ^(67|90)$: weight: = 5
+param EquipParamWeapon: prop wepType ^(67|90)$: properStrength: = 14
+param EquipParamWeapon: prop wepType ^69$: weight: = 10
+param EquipParamWeapon: prop wepType ^69$: properStrength: = 20
+param EquipParamWeapon: prop wepType ^(67|69)$: properAgility: = 0
+param EquipParamWeapon: prop wepType ^(67|69)$: properMagic: = 0
+param EquipParamWeapon: prop wepType ^(67|69)$: properFaith: = 0
+param EquipParamWeapon: prop wepType ^(67|69)$: properLuck: = 0
+
 ## Smithing Stone => Golden Rune [2] - 400
 param ItemLotParam_map: prop lotItemId01 ^10101$: lotItemId01: = 2901
 param ItemLotParam_enemy: prop lotItemId01 ^10101$: lotItemId01: = 2901
@@ -281,13 +298,6 @@ param ShopLineupParam: prop equipId ^10919$ && positive sellQuantity: sellQuanti
 
 ## remove rune costs from weapon upgrades
 param ReinforceParamWeapon: positive reinforcePriceRate: reinforcePriceRate: = 0
-
-## lower weapon stat requirements (not for shields and catalysts)
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 19: properStrength: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 19: properAgility: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 99: properMagic: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 99: properFaith: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 99: properLuck: = 10
 
 ## block class 1 (check wiki)
 param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: staminaGuardDef: = 47
