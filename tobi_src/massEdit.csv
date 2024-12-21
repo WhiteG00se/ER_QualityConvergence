@@ -63,11 +63,11 @@ param CalcCorrectGraph: id ^220$: stageMaxVal3: = 80
 param CalcCorrectGraph: id ^220$: stageMaxVal4: = 99
 
 ## lower weapon stat requirements (not for shields and catalysts)
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 15: properStrength: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 15: properAgility: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 15: properMagic: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 15: properFaith: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 15: properLuck: = 10
+param EquipParamWeapon: !prop wepType ^(57|61|65|67|69|90)$ && proprange properStrength 10 15: properStrength: = 10
+param EquipParamWeapon: !prop wepType ^(57|61|65|67|69|90)$ && proprange properAgility 10 15: properAgility: = 10
+param EquipParamWeapon: !prop wepType ^(57|61|65|67|69|90)$ && proprange properMagic 10 15: properMagic: = 10
+param EquipParamWeapon: !prop wepType ^(57|61|65|67|69|90)$ && proprange properFaith 10 15: properFaith: = 10
+param EquipParamWeapon: !prop wepType ^(57|61|65|67|69|90)$ && proprange properLuck 10 15: properLuck: = 10
 
 ## change weight and requrements of medium shields (67), thrusting shields (90) and heavy shields (69)
 param EquipParamWeapon: prop wepType ^(67|90)$: weight: = 5
