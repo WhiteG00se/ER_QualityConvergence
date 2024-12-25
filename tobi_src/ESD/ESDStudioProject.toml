@@ -1,0 +1,7 @@
+title = "ESDStudioProject"
+[project_info]
+name = "MyProject"
+base_directory = "D:\\GIT\\ER_QualityConvergence\\tobi_src\\MyProject"
+game_directory = "D:\\Games\\Steam\\steamapps\\common\\ELDEN RING\\Game"
+mod_directory = "D:\\GIT\\ER_QualityConvergence\\mod"
+game = "er"
