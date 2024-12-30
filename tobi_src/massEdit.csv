@@ -30,20 +30,10 @@ param CharaInitParam: id 2401: item_03: = 2911
 param CharaInitParam: id 2402: Name: = Gift - Golden Rune [12] - 7500
 param CharaInitParam: id 2402: item_03: = 2911
 
-## buff healing incantation radius
-## Heal 
-param Bullet: id 10642101: hitRadius: = 40
-## Great Heal 
-param Bullet: id 10642201: hitRadius: = 40
-## Lord's Heal
-param Bullet: id 10642301: hitRadius: = 40
-## Erdtree Heal
-param Bullet: id 10642401: hitRadius: = 40
-param Bullet: id 10642401: hitRadiusMax: = 40
-## Heal from Afar
-param Bullet: id 210640001: hitRadius: = 40
-## Ancestral Conduit (default 40)
+## Healing Radius Buffs (check wiki)
+param Bullet: id (10642101|10642201|10642301|10642401|210640001): hitRadius: = 40
 param Bullet: id 10744200: hitRadius: = 60
+param Bullet: id 10642401: hitRadiusMax: = 40
 
 ## buff equid load gain from endurance
 param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
