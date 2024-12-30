@@ -35,6 +35,16 @@ param Bullet: id (10642101|10642201|10642301|10642401|210640001): hitRadius: = 4
 param Bullet: id 10744200: hitRadius: = 60
 param Bullet: id 10642401: hitRadiusMax: = 40
 
+## FP Cost Nerfs (check wiki)
+param Magic: id 6420: mp: = 60
+param Magic: id 6421: mp: = 96
+param Magic: id 6422: mp: = 75
+param Magic: id 6423: mp: = 105
+param Magic: id 6424: mp: = 135
+param Magic: id 2006400: mp: = 105
+param Magic: id 7442: mp: = 18
+param Magic: id 7442: consumeLoopMP_forMenu: = 6
+
 ## buff equid load gain from endurance
 param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
 param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 40
