@@ -60,11 +60,11 @@
 "OPTIONSELECT_INFENEMYRUSH": "Lehetetlen",
 "OPTIONSELECT_BOSSRUSH": "FŐELLENSÉG",
 "OPTIONSELECT_BOSSRUSHDLC": "FŐELLENSÉG (DLC)",
-"OPTIONSELECT_BOSSRUSHBASEDLC": "FŐELLENSÉG (ALL)",
-"OPTIONSELECT_STARTEVILSESSION": "Start evil session",
-"OPTIONSELECT_SEEKEVILSESSION": "Join evil session",
-"OPTIONSELECT_VIEWEVILSESSION": "View evil session",
-"OPTIONSELECT_LEAVEEVILSESSION": "Leave evil session",
+"OPTIONSELECT_BOSSRUSHBASEDLC": "FŐELLENSÉG (MINDEN)",
+"OPTIONSELECT_STARTEVILSESSION": "Gonosz játszma indítása",
+"OPTIONSELECT_SEEKEVILSESSION": "Gonosz játszmához csatlakozás",
+"OPTIONSELECT_VIEWEVILSESSION": "Gonosz játszma megtekintése",
+"OPTIONSELECT_LEAVEEVILSESSION": "Gonosz játszma elhagyása",
 
 "FE_PLAYERDEATH": "HALÁL",
 "FE_BLOCKCLEAR": "ELLENFÉL LEGYŐZVE",
@@ -110,9 +110,9 @@
 "YKBR2_INFORMBATTLESTART": "Érzed, hogy egy rejtélyes melegség vesz körbe téged",	
 "YKBR2_INFORMBATTLEWAVE": "{}. számú harci kör közeledik...",
 "YKBR2_INFORMBATTLEEND": "Kezdesz magadhoz térni...",
-"YKBR2_NOFUNCTION": "You must first open your world",
-"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
-"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
+"YKBR2_NOFUNCTION": "Előbb meg kell nyitnod a világodat",
+"YKBR2_NOPERMISSION": "Kizárólag a világ mestere használhatja",
+"YKBR2_NOACCESS": "Placidusax Sárkánylord elutasítja a belépésedet",
 
 "CREDITS": "The_Reaper_CooL - https://trc-playground.hu"
 }

@@ -60,11 +60,11 @@
 	"OPTIONSELECT_INFENEMYRUSH": "Impossible",
 	"OPTIONSELECT_BOSSRUSH": "BOSS",
 	"OPTIONSELECT_BOSSRUSHDLC": "BOSS (DLC)",
-	"OPTIONSELECT_BOSSRUSHBASEDLC": "BOSS (ALL)",
-	"OPTIONSELECT_STARTEVILSESSION": "Start evil session",
-	"OPTIONSELECT_SEEKEVILSESSION": "Join evil session",
-	"OPTIONSELECT_VIEWEVILSESSION": "View evil session",
-	"OPTIONSELECT_LEAVEEVILSESSION": "Leave evil session",
+	"OPTIONSELECT_BOSSRUSHBASEDLC": "BOSS (TOUS)",
+	"OPTIONSELECT_STARTEVILSESSION": "Démarrer la session maléfique",
+	"OPTIONSELECT_SEEKEVILSESSION": "Rejoindre la session maléfique",
+	"OPTIONSELECT_VIEWEVILSESSION": "Voir la session maléfique",
+	"OPTIONSELECT_LEAVEEVILSESSION": "Quitter la session maléfique",
 
 	"FE_PKPLAYERBANISHED": "ENVAHISSEUR VAINCU",
 	"FE_PLAYERDEATH": "DÉFAITE",
@@ -105,14 +105,14 @@
 	"YKNX2_PLAYERBONFIREWARP": "{} a voyagé vers : {}",
 	"YKNX2_INVASIONRAPIDREENTRYINFO": "La broche commence à frémir...",
 
-	"ACTIONBUTTON_BOSSROOMKICKOUT": "Le pouvoir de la grâce vous a expulsé de l'arène",
+	"ACTIONBUTTON_BOSSROOMKICKOUT": "Le pouvoir de la grâce vous a expulsé de l'arène.",
 
-	"YKBR2_INFORMBATTLESTART": "Vous sentez une mystérieuse chaleur vous envahir",
+	"YKBR2_INFORMBATTLESTART": "Vous sentez une mystérieuse chaleur vous envahir...",
 	"YKBR2_INFORMBATTLEWAVE": "La vague de bataille n°{} approche...",
 	"YKBR2_INFORMBATTLEEND": "Vous commencez à vous réveiller...",
-	"YKBR2_NOFUNCTION": "You must first open your world",
-	"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
-	"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
+	"YKBR2_NOFUNCTION": "Vous devez d'abord ouvrir votre monde.",
+	"YKBR2_NOPERMISSION": "Seul le maître des lieux peut intéragir avec ceci.",
+	"YKBR2_NOACCESS": "Le seigneur draconique Placidusax refuse votre entrée.",
 
-	"CREDITS": "LukeYui, traduit par Antoine Pélissier et Simon Catanese (un peu)"
+	"CREDITS": "LukeYui, traduit par Antoine Pélissier et Simon Catanese"
 }

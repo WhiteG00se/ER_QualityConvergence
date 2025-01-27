@@ -1,5 +1,6 @@
 {
 	"GENERIC_INVALID": "Nothing interesting happens",
+	"UPDATE_RECOMMENDED": "Your version of seamless co-op ({}) is outdated. Please update the mod for the latest features and bug-fixes!",
 
 	"MODGOODSNAME_HOSTINGITEM": "Tiny Great Pot",
 	"MODGOODSNAME_JOININGITEM": "Effigy of Malenia",

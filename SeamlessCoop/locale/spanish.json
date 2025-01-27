@@ -60,11 +60,11 @@
 	"OPTIONSELECT_INFENEMYRUSH": "Imposible",
 	"OPTIONSELECT_BOSSRUSH": "JEFE",
 	"OPTIONSELECT_BOSSRUSHDLC": "JEFE (DLC)",
-	"OPTIONSELECT_BOSSRUSHBASEDLC": "JEFE (ALL)",
-	"OPTIONSELECT_STARTEVILSESSION": "Start evil session",
-	"OPTIONSELECT_SEEKEVILSESSION": "Join evil session",
-	"OPTIONSELECT_VIEWEVILSESSION": "View evil session",
-	"OPTIONSELECT_LEAVEEVILSESSION": "Leave evil session",
+	"OPTIONSELECT_BOSSRUSHBASEDLC": "JEFE (TODOS)",
+	"OPTIONSELECT_STARTEVILSESSION": "Empezar sesión malvada",
+	"OPTIONSELECT_SEEKEVILSESSION": "Unirse a sesión malvada",
+	"OPTIONSELECT_VIEWEVILSESSION": "Ver sesión malvada",
+	"OPTIONSELECT_LEAVEEVILSESSION": "Abandonar sesión malvada",
 
 	"FE_PLAYERDEATH": "HAS MUERTO",
 	"FE_BLOCKCLEAR": "ENEMIGO DERROTADO",
@@ -110,9 +110,9 @@
 	"YKBR2_INFORMBATTLESTART": "Sientes una misteriosa calidez recorrer tu cuerpo",	
 	"YKBR2_INFORMBATTLEWAVE": "Oleada de combate número {} se aproxima...",
 	"YKBR2_INFORMBATTLEEND": "Empiezas a despertar...",
-	"YKBR2_NOFUNCTION": "You must first open your world",
-	"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
-	"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
+	"YKBR2_NOFUNCTION": "Tu mundo debe estar abierto primero.",
+	"YKBR2_NOPERMISSION": "Solo el dueño del mundo puede interactuar con esto.",
+	"YKBR2_NOACCESS": "El Señor dragón Placidusax te prohibe la entrada.",
 
 	"CREDITS": "LukeYui, Algxen, Salafis, Umi, Prolusse & Kraka"
 }

@@ -60,11 +60,11 @@
 	"OPTIONSELECT_INFENEMYRUSH": "Невозможно",
 	"OPTIONSELECT_BOSSRUSH": "БОСС",
 	"OPTIONSELECT_BOSSRUSHDLC": "БОСС (DLC)",
-	"OPTIONSELECT_BOSSRUSHBASEDLC": "БОСС (ALL)",
-	"OPTIONSELECT_STARTEVILSESSION": "Start evil session",
-	"OPTIONSELECT_SEEKEVILSESSION": "Join evil session",
-	"OPTIONSELECT_VIEWEVILSESSION": "View evil session",
-	"OPTIONSELECT_LEAVEEVILSESSION": "Leave evil session",
+	"OPTIONSELECT_BOSSRUSHBASEDLC": "БОСС (ВСЕ)",
+	"OPTIONSELECT_STARTEVILSESSION": "Начать сессию зла",
+	"OPTIONSELECT_SEEKEVILSESSION": "Присоединиться к сессии зла ",
+	"OPTIONSELECT_VIEWEVILSESSION": "Посмотреть сессию зла",
+	"OPTIONSELECT_LEAVEEVILSESSION": "Покинуть сессию зла",
 
 	"FE_PLAYERDEATH": "СМЕРТЬ",
 	"FE_BLOCKCLEAR": "ПРОТИВНИК ПАЛ",
@@ -110,9 +110,9 @@
 	"YKBR2_INFORMBATTLESTART": "Вы чувствуете, как вас окутывает таинственное тепло",	
 	"YKBR2_INFORMBATTLEWAVE": "Волна {} приближается...",
 	"YKBR2_INFORMBATTLEEND": "Вы пробуждаетесь...",
-	"YKBR2_NOFUNCTION": "You must first open your world",
-	"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
-	"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
+	"YKBR2_NOFUNCTION": "Сначала откройте ваш мир",
+	"YKBR2_NOPERMISSION": "Только хозяин мира может это делать",
+	"YKBR2_NOACCESS": "Владыка драконов Пласидусакс не дарует вам право на вход",
 
 	"CREDITS": "LukeYui, BLADEKuzia, CanCan and Hobotam"
 }

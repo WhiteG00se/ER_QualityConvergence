@@ -59,6 +59,12 @@
 	"OPTIONSELECT_HARDENEMYRUSH": "Khó",
 	"OPTIONSELECT_INFENEMYRUSH": "Bất Khả Thi",
 	"OPTIONSELECT_BOSSRUSH": "BOSS",
+	"OPTIONSELECT_BOSSRUSHDLC": "BOSS (DLC)",
+	"OPTIONSELECT_BOSSRUSHBASEDLC": "BOSS (ALL)",
+	"OPTIONSELECT_STARTEVILSESSION": "Start evil session",
+	"OPTIONSELECT_SEEKEVILSESSION": "Join evil session",
+	"OPTIONSELECT_VIEWEVILSESSION": "View evil session",
+	"OPTIONSELECT_LEAVEEVILSESSION": "Leave evil session",
 
 	"FE_PLAYERDEATH": "TỬ TRẬN",
 	"FE_BLOCKCLEAR": "KẺ ĐỊCH ĐÃ GỤC NGÃ",
@@ -86,7 +92,7 @@
 	"YKNX2_PLAYERDIED": "{} đã tử trận",
 	"YKNX2_BREAKINPLAYERDIED": "Kẻ Lang Thang Tàn Bạo {} đã tử trận",
 	"YKNX2_BREAKINPLAYERJOIN": "Kẻ Lang Thang Tàn Bạo {} đã xâm lược!",
-	"YKNX2_BREAKINPLAYERINTRODUCED": "Invaded world master {} as an evil spirit\nDefeat {} player(s)...",
+	"YKNX2_BREAKINPLAYERINTRODUCED": "Xâm lược thế giới của {} với vai trì Linh Hồn Tàn Ác\nĐánh bại {} người chơi...",
 	"YKNX2_BOSSFIGHTSTART": "{} đã gặp phải kẻ thù trọng trách\nquay trở về thế giời của mình...",
 	"YKNX2_BOSSFIGHTEND": "{} đã đánh bại kẻ thù trọng trách\nquay trở về thế giời của mình...",
 	"YKNX2_PLAYERDISCONNECT": "{} đã rời khỏi",
@@ -104,9 +110,9 @@
 	"YKBR2_INFORMBATTLESTART": "Bạn cảm thấy sự ấm áp bí ẩn khắp cơ thể",	
 	"YKBR2_INFORMBATTLEWAVE": "Cuộc chiến thứ {} đang ập đến...",
 	"YKBR2_INFORMBATTLEEND": "Bạn đang dần trỗi dậy...",
-	"YKBR2_NOFUNCTION": "You must first open your world",
-	"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
-	"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
+	"YKBR2_NOFUNCTION": "Bạn cần phải mở thế giới",
+	"YKBR2_NOPERMISSION": "Chỉ chủ thế giới có thể tương tác",
+	"YKBR2_NOACCESS": "Placidusax đã cản bạn bước vào",
 
 	"CREDITS": "LukeYui"
 }
