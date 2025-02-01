@@ -20,7 +20,6 @@ external_dlls = [
     "mod_3rd_party/SkipTheIntro.dll", 
     "mod_3rd_party/AdjustTheFov.dll",
     "mod_3rd_party/UltrawideFix.dll",
-    "mod_3rd_party/UnlockTheFps.dll",
     "mod_3rd_party/PostureBarMod.dll",
 ]
 

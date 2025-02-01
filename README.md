@@ -1,13 +1,12 @@
 # [Changelog/Wiki](https://docs.google.com/spreadsheets/d/1AsFlqzsFYiBCyEobpUrh3SBEQkSGP2jWntixRSuaTUE/edit?gid=1672564269#gid=1672564269)
 
-
 # 3rd Party Mods
 
 - EldenRingFpsUnlockAndMore.exe https://github.com/uberhalit/EldenRingFpsUnlockAndMore/releases
 - eldenring_all-in-one_Hexinton CE Table https://www.nexusmods.com/eldenring/mods/48?tab=files
 - Convergence ER Downloader https://www.nexusmods.com/eldenring/mods/3419?tab=files
 - Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
-- AdjustTheFov, SkipTheIntro, UltrawideFix and UnlockTheFps from ERR: https://discord.gg/rGY3W7xe
+- AdjustTheFov, SkipTheIntro and UltrawideFix from ERR: https://discord.gg/rGY3W7xe
 - Remove Erdtree https://www.nexusmods.com/eldenring/mods/1947/?tab=files
 - PostureBarMod https://www.nexusmods.com/eldenring/mods/3405/?tab=files
 
