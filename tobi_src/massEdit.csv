@@ -60,7 +60,7 @@ param SpEffectParam: id 1896: changeHpRate: = -5
 param SpEffectParam: id 7001200: changeHpRate: = -1
 param SpEffectParam: id 7001200: changeMpRate: = -1
 
-## only daggers can now backstabs and reposts
+## only daggers can now backstabs and ripostes
 param EquipParamWeapon: prop wepType 1: enableThrow: = 1
 param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
 ## all daggers now have 1.60 crit multi ("160" in game)
