@@ -63,7 +63,7 @@ param SpEffectParam: id 7001200: changeMpRate: = -1
 ## only daggers can now backstabs and reposts
 param EquipParamWeapon: prop wepType 1: enableThrow: = 1
 param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
-## all daggers now have 60 crit ("160" in game)
+## all daggers now have 1.60 crit multi ("160" in game)
 param EquipParamWeapon: prop wepType 1: throwAtkRate: = 60
 
 ## Lower fall damage, from 20-50% at 5 to 20 meters to 8-20% at 8 to 20 meters
