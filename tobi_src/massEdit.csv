@@ -61,16 +61,17 @@ param SpEffectParam: id 7001200: changeHpRate: = -1
 param SpEffectParam: id 7001200: changeMpRate: = -1
 
 ## buff equid load gain from endurance
-param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
-param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 40
-param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 100
-param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 180
-param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 190
 param CalcCorrectGraph: id 220: stageMaxVal0: = 1
 param CalcCorrectGraph: id 220: stageMaxVal1: = 10
 param CalcCorrectGraph: id 220: stageMaxVal2: = 30
 param CalcCorrectGraph: id 220: stageMaxVal3: = 80
 param CalcCorrectGraph: id 220: stageMaxVal4: = 99
+param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
+param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 40
+param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 100
+param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 180
+param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 190
+
 
 ## lower weapon stat requirements (not for shields and catalysts)
 param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properStrength 10 20: properStrength: = 10
