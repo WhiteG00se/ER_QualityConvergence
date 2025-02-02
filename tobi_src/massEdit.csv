@@ -79,6 +79,12 @@ param EquipParamWeapon: prop wepType (67|69): properMagic: = 0
 param EquipParamWeapon: prop wepType (67|69): properFaith: = 0
 param EquipParamWeapon: prop wepType (67|69): properLuck: = 0
 
+## disable lock on
+## dunno how to have no condition, so one line for not 0 and one line for only 0
+param LockCamParam: !id 0: chrLockRangeMaxRadius: = 0
+param LockCamParam: id 0: chrLockRangeMaxRadius: = 0
+param NpcParam: !id 0: lockDist: = 0
+param NpcParam: id 0: lockDist: = 0
 
 ## increase FOV, default is 48
 param LockCamParam: id 0: camFovY: = 54
