@@ -18,7 +18,6 @@ external_dlls = [
     "mod/eldenring_alt_saves.dll", 
     "mod/Scripts-Data-Exposer-FS.dll",
     "mod_3rd_party/SkipTheIntro.dll", 
-    "mod_3rd_party/AdjustTheFov.dll",
     "mod_3rd_party/UltrawideFix.dll",
     "mod_3rd_party/PostureBarMod.dll",
 ]
