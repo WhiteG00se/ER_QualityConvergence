@@ -8,7 +8,7 @@
 - Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
 - SkipTheIntro and UltrawideFix from ERR: https://discord.gg/rGY3W7xe
 - PostureBarMod https://www.nexusmods.com/eldenring/mods/3405/?tab=files
-- LockPlayerRotation (careful, newest versin might not include all files) https://www.nexusmods.com/eldenring/mods/3449/?tab=files
+- LockPlayerRotation (newest version is missing files) https://www.nexusmods.com/eldenring/mods/3449/?tab=files
 
 # how to install / update
 
