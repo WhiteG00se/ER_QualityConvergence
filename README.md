@@ -8,7 +8,7 @@
 - SkipTheIntro and UltrawideFix from ERR: https://discord.gg/rGY3W7xe
 - PostureBarMod https://www.nexusmods.com/eldenring/mods/3405/?tab=files
 - LockPlayerRotation (newest version is missing files) https://www.nexusmods.com/eldenring/mods/3449/?tab=files
-- Disable rune loss on death https://www.nexusmods.com/eldenring/mods/376?tab=files
+- Disable rune loss on death (add "Z" to .dll) https://www.nexusmods.com/eldenring/mods/376?tab=files
 
 # how to install / update
 

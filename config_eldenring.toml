@@ -21,7 +21,7 @@ external_dlls = [
     "mod_3rd_party/UltrawideFix.dll",
     "mod_3rd_party/PostureBarMod.dll",
     "mod_3rd_party/LockPlayerRotation.dll",
-    "mod_3rd_party/DisableRuneLoss.dll",
+    "mod_3rd_party/ZDisableRuneLoss.dll",
 ]
 
 # Mod loader configuration
