@@ -1,0 +1,68 @@
+## disable lock on
+## dunno how to have no condition, so one line for not 0 and one line for only 0
+param LockCamParam: !id 0: chrLockRangeMaxRadius: = 0
+param LockCamParam: id 0: chrLockRangeMaxRadius: = 0
+param NpcParam: !id 0: lockDist: = 0
+param NpcParam: id 0: lockDist: = 0
+
+## Retrieve lost runes
+param ActionButtonParam: id 1000: radius: = 1000000
+param ActionButtonParam: id 1000: height: = 1000000
+param ActionButtonParam: id 1000: baseHeightOffset: = -700000
+
+## increase FOV, default is 48
+param LockCamParam: id 0: camFovY: = 48
+
+## set all starting classes to level 1 / 10 in every stat
+param CharaInitParam: idrange 3000 3299: soulLv: = 1
+param CharaInitParam: idrange 3000 3299: baseVit: = 10
+param CharaInitParam: idrange 3000 3299: baseWil: = 10
+param CharaInitParam: idrange 3000 3299: baseEnd: = 10
+param CharaInitParam: idrange 3000 3299: baseStr: = 10
+param CharaInitParam: idrange 3000 3299: baseDex: = 10
+param CharaInitParam: idrange 3000 3299: baseMag: = 10
+param CharaInitParam: idrange 3000 3299: baseFai: = 10
+param CharaInitParam: idrange 3000 3299: baseLuc: = 10
+
+## starting gift - Golden Seed (10010) / Sacred Tear (10020) => Golden Rune [12] - 7500
+param CharaInitParam: id 2401: Name: = Gift - Golden Rune [12] - 7500
+param CharaInitParam: id 2401: item_03: = 2911
+param CharaInitParam: id 2402: Name: = Gift - Golden Rune [12] - 7500
+param CharaInitParam: id 2402: item_03: = 2911
+
+## only daggers can now backstabs and ripostes
+param EquipParamWeapon: prop wepType 1: enableThrow: = 1
+param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
+## all daggers now have 1.60 crit multi ("160" in game)
+param EquipParamWeapon: prop wepType 1: throwAtkRate: = 60
+
+## Lower fall damage, from 20-50% at 5 to 20 meters to 8-20% at 8 to 20 meters
+param CalcCorrectGraph: id 210: stageMaxVal0: = 8
+param CalcCorrectGraph: id 210: stageMaxVal1: = 8
+param CalcCorrectGraph: id 210: stageMaxVal2: = 8
+param CalcCorrectGraph: id 210: stageMaxVal3: = 20
+param CalcCorrectGraph: id 210: stageMaxVal4: = 20
+param CalcCorrectGraph: id 210: stageMaxGrowVal0: = 8
+param CalcCorrectGraph: id 210: stageMaxGrowVal1: = 8
+param CalcCorrectGraph: id 210: stageMaxGrowVal2: = 8
+param CalcCorrectGraph: id 210: stageMaxGrowVal3: = 20
+param CalcCorrectGraph: id 210: stageMaxGrowVal4: = 20
+
+## buff equip load gain from endurance
+param CalcCorrectGraph: id 220: stageMaxVal0: = 1				
+param CalcCorrectGraph: id 220: stageMaxVal1: = 15
+param CalcCorrectGraph: id 220: stageMaxVal2: = 30
+param CalcCorrectGraph: id 220: stageMaxVal3: = 50
+param CalcCorrectGraph: id 220: stageMaxVal4: = 99
+param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10				
+param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 55
+param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 100
+param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 130
+param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 190
+
+## lower weapon stat requirements (not for shields and catalysts)
+param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properStrength 10 20: properStrength: = 10
+param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properAgility 10 20: properAgility: = 10
+param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properMagic 10 20: properMagic: = 10
+param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properFaith 10 20: properFaith: = 10
+param EquipParamWeapon: !prop wepType (57|61|65|67|69|90) && proprange properLuck 10 20: properLuck: = 10
