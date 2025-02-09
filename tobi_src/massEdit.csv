@@ -48,20 +48,55 @@ param Bullet: id (10642101|10642201|10642301|10642401|210640001): hitRadius: = 4
 param Bullet: id 10744200: hitRadius: = 60
 param Bullet: id 10642401: hitRadiusMax: = 40
 
-## Healing FP Cost Nerfs (check wiki)
-param Magic: id 6420: mp: = 50
-param Magic: id 6421: mp: = 80
-param Magic: id 6422: mp: = 63
-param Magic: id 6423: mp: = 88
-param Magic: id 6424: mp: = 113
-param Magic: id 2006400: mp: = 88
-param Magic: id 7442: mp: = 15
-param Magic: id 7442: consumeLoopMP_forMenu: = 5
-
-## Regen/Healing Nerfs (check wiki)
-param SpEffectParam: id 1896: changeHpRate: = -5
+## Healing/Regen
+## (unique) Ashes
+param SwordArtsParam: id 1183: useMagicPoint_L2: = 35
+param SpEffectParam: id 1896: changeHpRate: = -10
+param SpEffectParam: id 1896: changeMpRate: = -1
+## Armor
 param SpEffectParam: id 7001200: changeHpRate: = -1
 param SpEffectParam: id 7001200: changeMpRate: = -1
+param SpEffectParam: id 7001200: changeStaminaRate: = -3
+## Spells
+param Magic: id 6420: mp: = 60
+param Magic: id 6421: mp: = 100
+param Magic: id 6422: mp: = 150
+param Magic: id 2006400: mp: = 175
+param Magic: id 6423: mp: = 240
+param Magic: id 6424: mp: = 275
+param Magic: id 7442: mp: = 19
+param Magic: id 6420: stamina: = 15
+param Magic: id 6421: stamina: = 25
+param Magic: id 6422: stamina: = 38
+param Magic: id 2006400: stamina: = 44
+param Magic: id 6423: stamina: = 60
+param Magic: id 6424: stamina: = 69
+param Magic: id 7442: stamina: = 5
+param Magic: id 7442: consumeLoopMP_forMenu: = 19
+param Magic: id (6420|6421|6422|2006400|6423|6424|7442): requirementIntellect: = 0
+param Magic: id 6420: requirementFaith: = 12
+param Magic: id 6421: requirementFaith: = 15
+param Magic: id 6422: requirementFaith: = 22
+param Magic: id 2006400: requirementFaith: = 28
+param Magic: id 6423: requirementFaith: = 35
+param Magic: id 6424: requirementFaith: = 40
+param Magic: id 7442: requirementFaith: = 10
+param Magic: id (6420|6421|6422|2006400|6423|6424): requirementLuck: = 0
+param Magic: id 7442: requirementLuck: = 16
+param SpEffectParam: id (1642000|1642100|1642101|1642200|1642201|21640000|21640001|1642300|1642301|1642400|1642401|1744205|1744200): changeHpPoint: = 0
+param SpEffectParam: id 1642000: changeHpRate: = -20
+param SpEffectParam: id 1642100: changeHpRate: = -25
+param SpEffectParam: id 1642101: changeHpRate: = -25
+param SpEffectParam: id 1642200: changeHpRate: = -40
+param SpEffectParam: id 1642201: changeHpRate: = -40
+param SpEffectParam: id 21640000: changeHpRate: = -50
+param SpEffectParam: id 21640001: changeHpRate: = -50
+param SpEffectParam: id 1642300: changeHpRate: = -75
+param SpEffectParam: id 1642301: changeHpRate: = -75
+param SpEffectParam: id 1642400: changeHpRate: = -100
+param SpEffectParam: id 1642401: changeHpRate: = -100
+param SpEffectParam: id 1744205: changeHpRate: = -5
+param SpEffectParam: id 1744200: changeHpRate: = -5
 
 ## only daggers can now backstabs and ripostes
 param EquipParamWeapon: prop wepType 1: enableThrow: = 1
