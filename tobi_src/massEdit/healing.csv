@@ -90,5 +90,40 @@ param Magic: id 4970: requirementFaith: = 0
 param Magic: id 4970: requirementLuck: = 20
 param SpEffectParam: id 1497000: changeHpPoint: = 0
 param SpEffectParam: id 1497000: changeHpRate: = -20
-param SpEffectParam: id 1497000: changeHpPoint: = 0
-param SpEffectParam: id 1497000: changeHpRate: = -20
+## Blessing of Grace
+param Magic: id 6790: mp: = 1
+param Magic: id 6790: requirementIntellect: = 0
+param Magic: id 6790: requirementFaith: = 40
+param Magic: id 6790: requirementLuck: = 0
+param SpEffectParam: id 1679000: changeHpPoint: = 0
+param SpEffectParam: id 1679000: changeHpRate: = -10
+param SpEffectParam: id 1679000: motionInterval: = 10
+## Greater Blessing of Grace
+param SpEffectParam: id 1679005: changeHpPoint: = 0
+param SpEffectParam: id 1679005: changeHpRate: = -12
+param SpEffectParam: id 1679005: motionInterval: = 10
+## Crucible Vitality
+param Magic: id 6840: mp: = 150
+param Magic: id 6840: requirementIntellect: = 0
+param Magic: id 6840: requirementFaith: = 35
+param Magic: id 6840: requirementLuck: = 0
+param SpEffectParam: id 1684000: changeHpPoint: = 0
+param SpEffectParam: id 1684000: changeHpRate: = -15
+param SpEffectParam: id 1684000: motionInterval: = 5
+param SpEffectParam: id 1684000: effectEndurance: = 20
+## Crucible Vitality (buffed)
+param SpEffectParam: id 1684050: changeHpPoint: = 0
+param SpEffectParam: id 1684050: changeHpRate: = -18
+param SpEffectParam: id 1684050: motionInterval: = 5
+param SpEffectParam: id 1684050: effectEndurance: = 20
+## Crucible Vitality (both)
+param SpEffectParam: id 1685000: changeStaminaPoint: = 0
+param SpEffectParam: id 1685000: changeStaminaRate: = -20
+param SpEffectParam: id 1685000: motionInterval: = 5
+param SpEffectParam: id 1685000: effectEndurance: = 20
+## "Crucible Heal" 5%
+param SpEffectParam: id 550000: changeHpPoint: = 0
+param SpEffectParam: id 550000: changeHpRate: = -3
+## "Crucible Heal (improved)"
+param SpEffectParam: id 550005: changeHpPoint: = 0
+param SpEffectParam: id 550005: changeHpRate: = -5
