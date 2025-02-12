@@ -1719,9 +1719,9 @@ def t000001000_x47():
     while True:
         """State 1"""
         ClearTalkListData()
-        #"""State 14"""
+        """State 14"""
         # action:15000370:"Add charge to flask"
-        #assert t000001000_x69(z33=1, action8=15000370)
+        assert t000001000_x69(z33=1, action8=15000370)
         """State 15"""
         # action:15000380:"Increase amount replenished by flasks"
         assert t000001000_x70(z32=2, action7=15000380)
