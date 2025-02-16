@@ -1,0 +1,10 @@
+## Energy Shell
+param Magic: id 4160: mp: = 0
+param Magic: id 6420: requirementIntellect: = 15
+param Magic: id 6420: requirementFaith: = 0
+param Magic: id 6420: requirementLuck: = 0
+## Carian Slicer
+param Magic: id 4440: mp: = 7
+param Magic: id 6420: requirementIntellect: = 14
+param Magic: id 6420: requirementFaith: = 0
+param Magic: id 6420: requirementLuck: = 0
