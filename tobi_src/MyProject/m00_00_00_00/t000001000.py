@@ -227,26 +227,34 @@ def t000001000_x7(goods1=1000, goods2=10010):
             """State 28"""
             assert t000001000_x21(z44=1, z45=1, z46=1, z47=1, z48=1, z49=1, z50=1, z51=1, z52=1, z53=1, z54=1)
             """State 21"""
-            # goods:10010:Golden Seed
-            if (ComparePlayerInventoryNumber(3, goods2, 4, GetWorkValue(1),
-                False)):
-                """State 4,8"""
-                # goods:10010:Golden Seed
-                PlayerEquipmentQuantityChange(3, goods2, GetWorkValue(1) * -1)
-                """State 9"""
-                EstusAllocationUpdate(GetEstusAllocation(0) + 1, 0)
-                """State 27"""
+            # goods:10010:Golden Seed (less is actually less or equal)
+            if (ComparePlayerInventoryNumber(3, goods2, 3, 4,
+                False) and ((GetEstusAllocation(0) + GetEstusAllocation(1)) < 1)):
+                EstusAllocationUpdate(1, 0)
                 assert t000001000_x16(goods5=goods1)
-                """State 22"""
                 # action:13040140:"Added a charge to Flask of Crimson Tears"
                 assert t000001000_x4(action3=13040140)
-                """State 20"""
                 SetWorkValue(1, 0)
-                """State 10"""
+            elif (ComparePlayerInventoryNumber(3, goods2, 3, 14,
+                False) and ((GetEstusAllocation(0) + GetEstusAllocation(1)) < 2)):
+                EstusAllocationUpdate(2, 0)
+                assert t000001000_x16(goods5=goods1)
+                # action:13040140:"Added a charge to Flask of Crimson Tears"
+                assert t000001000_x4(action3=13040140)
+                SetWorkValue(1, 0)
+            elif (ComparePlayerInventoryNumber(3, goods2, 3, 27,
+                False)):
+                EstusAllocationUpdate(3, 0)
+                assert t000001000_x16(goods5=goods1)
+                # action:13040140:"Added a charge to Flask of Crimson Tears"
+                assert t000001000_x4(action3=13040140)
+                SetWorkValue(1, 0)
             else:
-                """State 5,23"""
-                # action:20011010:"Not enough Golden Seeds"
-                assert t000001000_x4(action3=20011010)
+                EstusAllocationUpdate(4, 0)
+                assert t000001000_x16(goods5=goods1)
+                # action:13040140:"Added a charge to Flask of Crimson Tears"
+                assert t000001000_x4(action3=13040140)
+                SetWorkValue(1, 0)
     else:
         """State 3,24"""
         # action:13040120:"Flask charges already at maximum"
