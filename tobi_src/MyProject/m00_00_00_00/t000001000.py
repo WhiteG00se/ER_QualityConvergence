@@ -228,15 +228,16 @@ def t000001000_x7(goods1=1000, goods2=10010):
             assert t000001000_x21(z44=1, z45=1, z46=1, z47=1, z48=1, z49=1, z50=1, z51=1, z52=1, z53=1, z54=1)
             """State 21"""
             # goods:10010:Golden Seed (less is actually less or equal)
+            EstusAllocationUpdate(0, 1)
             if (ComparePlayerInventoryNumber(3, goods2, 3, 4,
-                False) and ((GetEstusAllocation(0) + GetEstusAllocation(1)) < 1)):
+                False)):
                 EstusAllocationUpdate(1, 0)
                 assert t000001000_x16(goods5=goods1)
                 # action:13040140:"Added a charge to Flask of Crimson Tears"
                 assert t000001000_x4(action3=13040140)
                 SetWorkValue(1, 0)
             elif (ComparePlayerInventoryNumber(3, goods2, 3, 14,
-                False) and ((GetEstusAllocation(0) + GetEstusAllocation(1)) < 2)):
+                False)):
                 EstusAllocationUpdate(2, 0)
                 assert t000001000_x16(goods5=goods1)
                 # action:13040140:"Added a charge to Flask of Crimson Tears"
