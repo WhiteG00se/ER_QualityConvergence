@@ -1266,6 +1266,7 @@ def t000001000_x31():
                           13, 22230000, -1)
         AddTalkListDataIf(DoesPlayerHaveSpEffect(9000025) == 0, 14, 13040200, -1)
         """State 15"""
+        AddTalkListData(98, 14000000, -1)
         # action:20000009:"Leave"
         AddTalkListData(99, 20000009, -1)
         """State 6"""
@@ -1362,6 +1363,13 @@ def t000001000_x31():
                 """State 23,38"""
                 # action:20011031:"Cannot select while entering combat"
                 assert t000001000_x4(action3=20011031)
+        elif GetTalkListEntryResult() == 98:
+            ReallocateAttributes()
+            ClearTalkActionState()
+            RequestSave()
+            assert GetCurrentStateElapsedFrames() > 1
+            assert not (CheckSpecificPersonMenuIsOpen(19, 0) and not CheckSpecificPersonGenericDialogIsOpen(0))
+            return 0
         else:
             """State 4,41"""
             assert t000001000_x83()
