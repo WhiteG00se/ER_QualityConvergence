@@ -14,7 +14,7 @@
 - GIT CLONE this repo
 - download latest version of The Convergence with "Convergence ER Downloader.exe" (e.g. into your downloads folder)
 - unzip ERR into the repo folder
-- discard all changed and deleted files with GIT (if there are added files, the gitignore is outdated)
+- discard all changed and deleted files with GIT (if there are added files, this mod needs an update)
 - run Start_Convergence.bat
 - (in game) change "Camera Auto Rotation" to "off" (at least strongly recommended)
 - (in game) you migh also want to change "Camera Auto Wall Recovery" to "off"
