@@ -15,8 +15,8 @@ param SpEffectParam: id 7001200: changeHpRate: = -1
 param SpEffectParam: id 7001200: changeMpRate: = -1
 param SpEffectParam: id 7001200: changeStaminaRate: = -3
 ## Godrick Knight Gauntlets
-param SpEffectParam: id 7003200: changeHpRate: = -1
-param SpEffectParam: id 7003200: changeMpRate: = -1
+param SpEffectParam: id 7003200: changeHpRate: = -3
+param SpEffectParam: id 7003200: changeMpRate: = -3
 
 ## Spells
 ## Urgent Heal
