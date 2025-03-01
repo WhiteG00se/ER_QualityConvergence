@@ -39,10 +39,3 @@ param CalcCorrectGraph: id 27: stageMaxGrowVal4: = 25
 ## Energy Shell
 param Magic: id 4160: mp: = 0
 param Magic: id 4160: requirementIntellect: = 15
-param Magic: id 4160: requirementFaith: = 0
-param Magic: id 4160: requirementLuck: = 0
-## Carian Slicer
-param Magic: id 4440: mp: = 7
-param Magic: id 4440: requirementIntellect: = 14
-param Magic: id 4440: requirementFaith: = 0
-param Magic: id 4440: requirementLuck: = 0
