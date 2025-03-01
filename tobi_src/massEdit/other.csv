@@ -12,6 +12,9 @@ param ActionButtonParam: id 1000: baseHeightOffset: = -700000
 ## increase FOV, default is 48
 param LockCamParam: id 0: camFovY: = 54
 
+## Deflecting Hardtear - infinite duration
+param SpEffectParam: id 102000: effectEndurance: = -1 
+
 ## set all starting classes to level 1 / 10 in every stat
 param CharaInitParam: idrange 3000 3299: soulLv: = 1
 param CharaInitParam: idrange 3000 3299: baseVit: = 10
