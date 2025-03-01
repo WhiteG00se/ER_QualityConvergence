@@ -39,13 +39,13 @@ param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
 param EquipParamWeapon: prop wepType 1: throwAtkRate: = 60
 
 ## buff arrows
-param EquipParamWeapon: prop wepType 81: attackBasePhysics: = 150
+#param EquipParamWeapon: prop wepType 81: attackBasePhysics: = 150
 ## buff great arrows
-param EquipParamWeapon: prop wepType 83: attackBasePhysics: = 250
+#param EquipParamWeapon: prop wepType 83: attackBasePhysics: = 250
 ## buff bolts
-param EquipParamWeapon: prop wepType 85: attackBasePhysics: = 150
+#param EquipParamWeapon: prop wepType 85: attackBasePhysics: = 150
 ## buff great bolts
-param EquipParamWeapon: prop wepType 86: attackBasePhysics: = 250
+#param EquipParamWeapon: prop wepType 86: attackBasePhysics: = 250
 
 ## disable all stagger
 param AtkParam_Pc: positive dmgLevel: dmgLevel: = 0
