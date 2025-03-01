@@ -10,12 +10,20 @@
 - LockPlayerRotation (newest version is missing files) https://www.nexusmods.com/eldenring/mods/3449/?tab=files
 - Free Lock-On Camera (FreeLockOnCamera) https://www.nexusmods.com/eldenring/mods/4177?tab=files
 
-# how to install / update
+# how to install
+
+## with GIT client (recommended)
 
 - GIT CLONE this repo
-- download latest version of The Convergence with "Convergence ER Downloader.exe" (e.g. into your downloads folder)
-- drop the downloaded files into the folder of this mod
+- run "Convergence ER Downloader.exe" (download e.g. to desktop)
+- drop the downloaded files into the folder of this mod and make sure the folders align
 - discard all changed and deleted files with GIT (if there are added files, this repo needs an update)
 - run Start_Convergence.bat
-- (in game) change "Camera Auto Rotation" to "off" (at least strongly recommended)
-- (in game) you migh also want to change "Camera Auto Wall Recovery" to "off"
+
+## without GIT client
+
+- download this repo ("code" -> "Download ZIP")
+- extract the ER_QualityConvergence-main.zip
+- run "Convergence ER Downloader.exe" (download e.g. to desktop)
+- drop the files from ER_QualityConvergence-main.zip into the folder "Convergence ER Downloader.exe" downloaded and make sure the folders align
+- run Start_Convergence.bat
