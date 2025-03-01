@@ -8,6 +8,7 @@
 - SkipTheIntro and UltrawideFix from ERR https://discord.gg/rGY3W7xe
 - PostureBarMod https://www.nexusmods.com/eldenring/mods/3405/?tab=files
 - LockPlayerRotation (newest version is missing files) https://www.nexusmods.com/eldenring/mods/3449/?tab=files
+- Free Lock-On Camera (FreeLockOnCamera) https://www.nexusmods.com/eldenring/mods/4177?tab=files
 
 # how to install / update
 
