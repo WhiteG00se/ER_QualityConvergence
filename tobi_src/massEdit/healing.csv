@@ -20,12 +20,12 @@ param SpEffectParam: id 7003200: changeMpRate: = -3
 
 ## Spells
 ## Urgent Heal
-param Magic: id 6420: mp: = 60
+param Magic: id 6420: mp: = 75
 param Magic: id 6420: requirementIntellect: = 0
 param Magic: id 6420: requirementFaith: = 15
 param Magic: id 6420: requirementLuck: = 0
 param SpEffectParam: id 1642000: changeHpPoint: = 0
-param SpEffectParam: id 1642000: changeHpRate: = -20
+param SpEffectParam: id 1642000: changeHpRate: = -25
 param SpEffectParam: id 1642000: bAdjustStrengthAblity: = 0
 param SpEffectParam: id 1642000: bAdjustAgilityAblity: = 0
 param SpEffectParam: id 1642000: bAdjustMagicAblity: = 0
@@ -150,6 +150,19 @@ param SpEffectParam: id 1744200: bAdjustAgilityAblity: = 0
 param SpEffectParam: id 1744200: bAdjustMagicAblity: = 0
 param SpEffectParam: id 1744200: bAdjustFaithAblity: = 0
 param SpEffectParam: id 1744200: isUseAtkParamAtkPowerCorrect: = 0
+## Siphon the Formless
+param Magic: id 6322: mp: = 55
+param Magic: id 6322: consumeLoopMP_forMenu: = 55
+param Magic: id 6322: requirementIntellect: = 0
+param Magic: id 6322: requirementFaith: = 20
+param Magic: id 6322: requirementLuck: = 20
+param SpEffectParam: id 1632200: changeHpPoint: = 0
+param SpEffectParam: id 1632200: changeHpRate: = -20
+param SpEffectParam: id 1632200: bAdjustStrengthAblity: = 0
+param SpEffectParam: id 1632200: bAdjustAgilityAblity: = 0
+param SpEffectParam: id 1632200: bAdjustMagicAblity: = 0
+param SpEffectParam: id 1632200: bAdjustFaithAblity: = 0
+param SpEffectParam: id 1632200: isUseAtkParamAtkPowerCorrect: = 0
 ## Close Wound
 param Magic: id 4970: mp: = 55
 param Magic: id 4970: consumeLoopMP_forMenu: = 55
