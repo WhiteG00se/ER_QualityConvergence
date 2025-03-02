@@ -1,0 +1,151 @@
+## Bows (wepType 51) -25%
+# Longbow - 100 default
+param EquipParamWeapon: id 41000000: attackBasePhysics: = 75
+param EquipParamWeapon: id 41000000: attackBaseMagic: = 75
+param EquipParamWeapon: id 41000000: attackBaseFire: = 75
+param EquipParamWeapon: id 41000000: attackBaseThunder: = 75
+param EquipParamWeapon: id 41000000: attackBaseDark: = 75
+Albinauric Bow - 103 default
+param EquipParamWeapon: id 41010000: attackBasePhysics: = 77
+param EquipParamWeapon: id 41010000: attackBaseMagic: = 77
+param EquipParamWeapon: id 41010000: attackBaseFire: = 77
+param EquipParamWeapon: id 41010000: attackBaseThunder: = 77
+param EquipParamWeapon: id 41010000: attackBaseDark: = 77
+Horn Bow - 99 default
+param EquipParamWeapon: id 41020000: attackBasePhysics: = 74
+param EquipParamWeapon: id 41020000: attackBaseMagic: = 74
+param EquipParamWeapon: id 41020000: attackBaseFire: = 74
+param EquipParamWeapon: id 41020000: attackBaseThunder: = 74
+param EquipParamWeapon: id 41020000: attackBaseDark: = 74
+Erdtree Bow - 105 default
+param EquipParamWeapon: id 41030000: attackBasePhysics: = 79
+param EquipParamWeapon: id 41030000: attackBaseMagic: = 79
+param EquipParamWeapon: id 41030000: attackBaseFire: = 79
+param EquipParamWeapon: id 41030000: attackBaseThunder: = 79
+param EquipParamWeapon: id 41030000: attackBaseDark: = 79
+Serpent Bow - 102 default
+param EquipParamWeapon: id 41040000: attackBasePhysics: = 77
+param EquipParamWeapon: id 41040000: attackBaseMagic: = 77
+param EquipParamWeapon: id 41040000: attackBaseFire: = 77
+param EquipParamWeapon: id 41040000: attackBaseThunder: = 77
+param EquipParamWeapon: id 41040000: attackBaseDark: = 77
+Pulley Bow - 97 default
+param EquipParamWeapon: id 41060000: attackBasePhysics: = 73
+param EquipParamWeapon: id 41060000: attackBaseMagic: = 73
+param EquipParamWeapon: id 41060000: attackBaseFire: = 73
+param EquipParamWeapon: id 41060000: attackBaseThunder: = 73
+param EquipParamWeapon: id 41060000: attackBaseDark: = 73
+Black Bow - 88 default
+param EquipParamWeapon: id 41070000: attackBasePhysics: = 66
+param EquipParamWeapon: id 41070000: attackBaseMagic: = 66
+param EquipParamWeapon: id 41070000: attackBaseFire: = 66
+param EquipParamWeapon: id 41070000: attackBaseThunder: = 66
+param EquipParamWeapon: id 41070000: attackBaseDark: = 66
+Ansbach's Longbow - 90 default
+param EquipParamWeapon: id 41510000: attackBasePhysics: = 68
+param EquipParamWeapon: id 41510000: attackBaseMagic: = 68
+param EquipParamWeapon: id 41510000: attackBaseFire: = 68
+param EquipParamWeapon: id 41510000: attackBaseThunder: = 68
+param EquipParamWeapon: id 41510000: attackBaseDark: = 68
+
+## Greatbows (wepType 53) -25%
+Lion Greatbow  - 150 default
+param EquipParamWeapon: id 42000000: attackBasePhysics: = 113
+param EquipParamWeapon: id 42000000: attackBaseMagic: = 113
+param EquipParamWeapon: id 42000000: attackBaseFire: = 113
+param EquipParamWeapon: id 42000000: attackBaseThunder: = 113
+param EquipParamWeapon: id 42000000: attackBaseDark: = 113
+Golem Greatbow  - 163 default
+param EquipParamWeapon: id 42010000: attackBasePhysics: = 122
+param EquipParamWeapon: id 42010000: attackBaseMagic: = 122
+param EquipParamWeapon: id 42010000: attackBaseFire: = 122
+param EquipParamWeapon: id 42010000: attackBaseThunder: = 122
+param EquipParamWeapon: id 42010000: attackBaseDark: = 122
+Erdtree Greatbow  - 160 default
+param EquipParamWeapon: id 42030000: attackBasePhysics: = 120
+param EquipParamWeapon: id 42030000: attackBaseMagic: = 120
+param EquipParamWeapon: id 42030000: attackBaseFire: = 120
+param EquipParamWeapon: id 42030000: attackBaseThunder: = 120
+param EquipParamWeapon: id 42030000: attackBaseDark: = 120
+Greatbow  - 156 default
+param EquipParamWeapon: id 42040000: attackBasePhysics: = 117
+param EquipParamWeapon: id 42040000: attackBaseMagic: = 117
+param EquipParamWeapon: id 42040000: attackBaseFire: = 117
+param EquipParamWeapon: id 42040000: attackBaseThunder: = 117
+param EquipParamWeapon: id 42040000: attackBaseDark: = 117
+
+## Crossbows (wepType 55) -25%
+Soldier's Crossbow  - 86 default
+param EquipParamWeapon: id 43000000: attackBasePhysics: = 65
+param EquipParamWeapon: id 43000000: attackBaseMagic: = 65
+param EquipParamWeapon: id 43000000: attackBaseFire: = 65
+param EquipParamWeapon: id 43000000: attackBaseThunder: = 65
+param EquipParamWeapon: id 43000000: attackBaseDark: = 65
+Light Crossbow  - 83 default
+param EquipParamWeapon: id 43020000: attackBasePhysics: = 62
+param EquipParamWeapon: id 43020000: attackBaseMagic: = 62
+param EquipParamWeapon: id 43020000: attackBaseFire: = 62
+param EquipParamWeapon: id 43020000: attackBaseThunder: = 62
+param EquipParamWeapon: id 43020000: attackBaseDark: =62
+Heavy Crossbow  - 103 default
+param EquipParamWeapon: id 43030000: attackBasePhysics: = 77
+param EquipParamWeapon: id 43030000: attackBaseMagic: = 77
+param EquipParamWeapon: id 43030000: attackBaseFire: = 77
+param EquipParamWeapon: id 43030000: attackBaseThunder: = 77
+param EquipParamWeapon: id 43030000: attackBaseDark: =77
+Pulley Crossbow  - 68 default
+param EquipParamWeapon: id 43050000: attackBasePhysics: = 51
+param EquipParamWeapon: id 43050000: attackBaseMagic: = 51
+param EquipParamWeapon: id 43050000: attackBaseFire: = 51
+param EquipParamWeapon: id 43050000: attackBaseThunder: = 51
+param EquipParamWeapon: id 43050000: attackBaseDark: =51
+Full Moon Crossbow  - 98 default
+param EquipParamWeapon: id 43060000: attackBasePhysics: = 74
+param EquipParamWeapon: id 43060000: attackBaseMagic: = 74
+param EquipParamWeapon: id 43060000: attackBaseFire: = 74
+param EquipParamWeapon: id 43060000: attackBaseThunder: = 74
+param EquipParamWeapon: id 43060000: attackBaseDark: =74
+Arbalest  - 108 default
+param EquipParamWeapon: id 43080000: attackBasePhysics: = 81
+param EquipParamWeapon: id 43080000: attackBaseMagic: = 81
+param EquipParamWeapon: id 43080000: attackBaseFire: = 81
+param EquipParamWeapon: id 43080000: attackBaseThunder: = 81
+param EquipParamWeapon: id 43080000: attackBaseDark: =81
+Crepus's Black-Key Crossbow  - 92 default
+param EquipParamWeapon: id 43110000: attackBasePhysics: = 69
+param EquipParamWeapon: id 43110000: attackBaseMagic: = 69
+param EquipParamWeapon: id 43110000: attackBaseFire: = 69
+param EquipParamWeapon: id 43110000: attackBaseThunder: = 69
+param EquipParamWeapon: id 43110000: attackBaseDark: =69
+Repeating Crossbow  - 77 default
+param EquipParamWeapon: id 43500000: attackBasePhysics: = 58
+param EquipParamWeapon: id 43500000: attackBaseMagic: = 58
+param EquipParamWeapon: id 43500000: attackBaseFire: = 58
+param EquipParamWeapon: id 43500000: attackBaseThunder: = 58
+param EquipParamWeapon: id 43500000: attackBaseDark: =58
+Spread Crossbow  - 73 default
+param EquipParamWeapon: id 43510000: attackBasePhysics: = 55
+param EquipParamWeapon: id 43510000: attackBaseMagic: = 55
+param EquipParamWeapon: id 43510000: attackBaseFire: = 55
+param EquipParamWeapon: id 43510000: attackBaseThunder: = 55
+param EquipParamWeapon: id 43510000: attackBaseDark: =55
+
+## Ballista (wepType 56) -25%
+Hand Ballista  - 165 default
+param EquipParamWeapon: id 44000000: attackBasePhysics: = 124
+param EquipParamWeapon: id 44000000: attackBaseMagic: = 124
+param EquipParamWeapon: id 44000000: attackBaseFire: = 124
+param EquipParamWeapon: id 44000000: attackBaseThunder: = 124
+param EquipParamWeapon: id 44000000: attackBaseDark: =124
+Jar Cannon  - 172 default
+param EquipParamWeapon: id 44010000: attackBasePhysics: = 129
+param EquipParamWeapon: id 44010000: attackBaseMagic: = 129
+param EquipParamWeapon: id 44010000: attackBaseFire: = 129
+param EquipParamWeapon: id 44010000: attackBaseThunder: = 129
+param EquipParamWeapon: id 44010000: attackBaseDark: =129
+Rabbath's Cannon  - 168 default
+param EquipParamWeapon: id 44500000: attackBasePhysics: = 126
+param EquipParamWeapon: id 44500000: attackBaseMagic: = 126
+param EquipParamWeapon: id 44500000: attackBaseFire: = 126
+param EquipParamWeapon: id 44500000: attackBaseThunder: = 126
+param EquipParamWeapon: id 44500000: attackBaseDark: =126
