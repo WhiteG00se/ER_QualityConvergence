@@ -1,8 +1,8 @@
 ## disable lock on
-#param LockCamParam: !id 0: chrLockRangeMaxRadius: = 0
-#param LockCamParam: id 0: chrLockRangeMaxRadius: = 0
-#param NpcParam: !id 0: lockDist: = 0
-#param NpcParam: id 0: lockDist: = 0
+## param LockCamParam: !id 0: chrLockRangeMaxRadius: = 0
+## param LockCamParam: id 0: chrLockRangeMaxRadius: = 0
+## param NpcParam: !id 0: lockDist: = 0
+## param NpcParam: id 0: lockDist: = 0
 
 ## Retrieve lost runes
 param ActionButtonParam: id 1000: radius: = 1000000
@@ -42,11 +42,11 @@ param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
 param EquipParamWeapon: prop wepType 1: throwAtkRate: = 60
 
 ## buff arrows
-#param EquipParamWeapon: prop wepType 81: attackBasePhysics: = 150
+## param EquipParamWeapon: prop wepType 81: attackBasePhysics: = 150
 ## buff great arrows
-#param EquipParamWeapon: prop wepType 83: attackBasePhysics: = 250
+## param EquipParamWeapon: prop wepType 83: attackBasePhysics: = 250
 ## buff bolts
-#param EquipParamWeapon: prop wepType 85: attackBasePhysics: = 150
+## param EquipParamWeapon: prop wepType 85: attackBasePhysics: = 150
 ## buff great bolts
 #param EquipParamWeapon: prop wepType 86: attackBasePhysics: = 250
 
