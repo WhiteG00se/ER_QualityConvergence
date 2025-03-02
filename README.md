@@ -5,7 +5,7 @@
 - eldenring_all-in-one_Hexinton CE Table https://www.nexusmods.com/eldenring/mods/48?tab=files
 - Convergence ER Downloader https://www.nexusmods.com/eldenring/mods/3419?tab=files
 - Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
-- SkipTheIntro and UltrawideFix from ERR https://discord.gg/rGY3W7xe
+- SkipTheIntro, UltrawideFix and UnlockTheFps from ERR https://discord.gg/rGY3W7xe
 - PostureBarMod https://www.nexusmods.com/eldenring/mods/3405/?tab=files
 - LockPlayerRotation (newest version is missing files) https://www.nexusmods.com/eldenring/mods/3449/?tab=files
 - Free Lock-On Camera (FreeLockOnCamera) https://www.nexusmods.com/eldenring/mods/4177?tab=files
