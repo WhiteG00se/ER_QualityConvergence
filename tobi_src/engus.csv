@@ -5,3 +5,5 @@ base > menu > menu text|297152|Golden Rune [12] - 7500|Sacred Tear|
 base > nenu > line help|297152|Start the game with some extra level ups.|Increases the potency of a Sacred Flask's restorative effects. (Can be used after resting at a site of grace.)|
 base > menu > event text for talk|14000000|Free Respec||15000373
 base > menu > event text for talk|15000370|Recalculate flask amount|Add charge to flask|
+
+check wiki for healing
