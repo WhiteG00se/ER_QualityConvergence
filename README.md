@@ -15,15 +15,14 @@
 ## with GIT client (recommended)
 
 - GIT CLONE this repo
-- run "Convergence ER Downloader.exe" (download e.g. to desktop)
+- [download the Convergence mod from here and unzip it](https://drive.google.com/file/d/1-ZlgXuenvQ_PrTM3aX8mgCBnr01N1hDb/view?usp=sharing)
 - drop the downloaded files into the folder of this mod and make sure the folders align
 - discard all changed and deleted files with GIT (if there are added files, this repo needs an update)
 - run Start_Convergence.bat
 
 ## without GIT client
 
+- [download the Convergence mod from here and unzip it](https://drive.google.com/file/d/1-ZlgXuenvQ_PrTM3aX8mgCBnr01N1hDb/view?usp=sharing)
 - download this repo ("code" -> "Download ZIP")
-- extract the ER_QualityConvergence-main.zip
-- run "Convergence ER Downloader.exe" (download e.g. to desktop)
-- drop the files from ER_QualityConvergence-main.zip into the folder "Convergence ER Downloader.exe" downloaded and make sure the folders align
+- drop the files from ER_QualityConvergence-main.zip into the "ConvergenceER" folder (from google drive) and make sure the folders align
 - run Start_Convergence.bat
