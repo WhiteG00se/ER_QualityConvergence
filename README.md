@@ -26,3 +26,4 @@
 - download this repo ("code" -> "Download ZIP")
 - drop the files from ER_QualityConvergence-main.zip into the "ConvergenceER" folder (from google drive) and make sure the folders align
 - run Start_Convergence.bat
+- test
