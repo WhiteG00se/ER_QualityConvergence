@@ -1,6 +1,6 @@
 # [Changelog/Wiki](https://docs.google.com/spreadsheets/d/1AsFlqzsFYiBCyEobpUrh3SBEQkSGP2jWntixRSuaTUE/edit?gid=452958051#gid=452958051)
-# [Starting Class Locations](https://media.discordapp.net/attachments/905816659640586242/1219860141768310804/Rough_Convergence_Class_Starting_Points_1.4.1.2.jpg?ex=67cc6b89&is=67cb1a09&hm=47cac2082e248dd3a8f45f4b58f7bc92f8fa2d2a6614fac5e3fbdb54c87bf3d6&=&format=webp&width=1424&height=1380)
-# [Class Spells](https://docs.google.com/spreadsheets/d/14eOorTrWt4jk-Gghg4DahKbL2bBU9aktBBhypXQKlP8/edit?gid=1721948299#gid=1721948299)
+# [Starting Class Locations](https://drive.google.com/file/d/19Dg9Y0608gZbtI9YMBraDZoeNcBfkeo9/view?usp=sharing)
+# [Class Spells](https://docs.google.com/spreadsheets/d/1H4bx6m6EG4oCp6SYf89PbJxWptKgHabAS0Rp1BdNs78/edit?usp=sharing)
 
 # 3rd Party Mods
 
