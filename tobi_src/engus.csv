@@ -7,6 +7,7 @@ base > menu > event text for talk|14000000|Free Respec||15000373
 base > menu > event text for talk|15000370|Recalculate flask amount|Add charge to flask|
 base > menu > event text for talk|13040140|check *|Added a charge to Flask of Crimson Tears|
 base > menu > accessories|2050|Raises attack power by 10% when HP is at maximum|Raises attack power when HP is at maximum|
+base > menu > Weapons|31180000|Grants no FP regen, instead everyone gets more passive base regen.|A kite shield adorned with a large shard of starlight in its center. Grants an additional 1 FP regeneration per second.|
 
 *golden seeds => flasks:
 00-04 => 1 | 05-14 => 2

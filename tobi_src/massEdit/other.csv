@@ -15,8 +15,11 @@ param LockCamParam: id 0: camFovY: = 54
 ## Deflecting Hardtear - infinite duration
 param SpEffectParam: id 102000: effectEndurance: = -1 
 
-## +1FP/sec base + +1FP/sec bonus per 150 max FP
-param SpEffectParam: id 330: changeMpRate: = -0.667
+## +1FP/sec base + +1FP/sec bonus per 100 max FP
+param SpEffectParam: id 330: changeMpRate: = -1
+
+## disable FP regen on shield of starlight
+param SpEffectParam: id 5029000: changeMpPoint: = -0
 
 ## set all starting classes to level 1 / 10 in every stat
 param CharaInitParam: idrange 3000 3299: soulLv: = 1
