@@ -42,7 +42,7 @@ param CharaInitParam: id 2402: item_03: = 2911
 param EquipParamWeapon: prop wepType 1: enableThrow: = 1
 param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
 ## all daggers now have 1.60 crit multi ("160" in game)
-param EquipParamWeapon: prop wepType 1: throwAtkRate: = 60
+param EquipParamWeapon: prop wepType 1: throwAtkRate: = 80
 
 ## buff arrows
 ## param EquipParamWeapon: prop wepType 81: attackBasePhysics: = 150
