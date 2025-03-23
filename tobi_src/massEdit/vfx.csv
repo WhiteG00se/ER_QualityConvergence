@@ -1,0 +1,15 @@
+## remove buff vfx
+## [Talisman] Ritual Sword Talisman
+param SpEffectParam: id 320500: vfxId: = -1
+## [Talisman] Ritual Shield Talisman
+param SpEffectParam: id 340900: vfxId: = -1
+## [Incantation] Spirit Link
+param SpEffectParam: id 1741300: vfxId1: = -1
+## [Incantation] Blessing of Grace
+param SpEffectParam: id 1679000: vfxId: = -1
+## [Incantation] Blessing of Protection
+param SpEffectParam: id 1679100: vfxId: = -1
+## [Incantation] Blessing of Wisdom
+param SpEffectParam: id 1679200: vfxId: = -1
+## [Incantation] Blessing of Power
+param SpEffectParam: id 1679300: vfxId: = -1
