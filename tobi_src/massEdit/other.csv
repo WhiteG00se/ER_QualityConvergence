@@ -44,6 +44,12 @@ param EquipParamWeapon: !prop wepType 1: enableThrow: = 0
 ## all daggers now have 1.60 crit multi ("160" in game)
 param EquipParamWeapon: prop wepType 1: throwAtkRate: = 80
 
+## ashes of war on all weapons
+param EquipParamWeapon: !id 0: gemMountType: = 2
+param EquipParamWeapon: id 0: gemMountType: = 2
+param EquipParamWeapon: !id 0: isEnhance: = 1
+param EquipParamWeapon: id 0: isEnhance: = 1
+
 ## buff arrows
 ## param EquipParamWeapon: prop wepType 81: attackBasePhysics: = 150
 ## buff great arrows
