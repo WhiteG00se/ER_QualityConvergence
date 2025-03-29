@@ -13,3 +13,6 @@ param SpEffectParam: id 1679100: vfxId: = -1
 param SpEffectParam: id 1679200: vfxId: = -1
 ## [Incantation] Blessing of Power
 param SpEffectParam: id 1679300: vfxId: = -1
+## Veteran's Armor - Commander's Solace (self + ally)
+param SpEffectParam: id 7004105: vfxId: = -1
+param SpEffectParam: id 7004106: vfxId: = -1
