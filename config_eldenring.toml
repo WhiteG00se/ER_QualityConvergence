@@ -22,6 +22,7 @@ external_dlls = [
     "mod_3rd_party/UnlockTheFps.dll",
     "mod_3rd_party/PostureBarMod.dll",
     "mod_3rd_party/FreeLockOnCamera.dll",
+    "mod/erdyes.dll", 
 ]
 
 # Mod loader configuration
