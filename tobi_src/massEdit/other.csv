@@ -49,14 +49,9 @@ param EquipParamWeapon: !prop wepType (50|51|53|55|56|81|83|85|86): gemMountType
 ## weapon buffs on all weapons, but catalysts and (cross)bows
 param EquipParamWeapon: !prop wepType (57|61|50|51|53|55|56|81|83|85|86): isEnhance: = 1
 
-## buff arrows
-## param EquipParamWeapon: prop wepType 81: attackBasePhysics: = 150
-## buff great arrows
-## param EquipParamWeapon: prop wepType 83: attackBasePhysics: = 250
-## buff bolts
-## param EquipParamWeapon: prop wepType 85: attackBasePhysics: = 150
-## buff great bolts
-#param EquipParamWeapon: prop wepType 86: attackBasePhysics: = 250
+## nerf rain of arrows mana costs, because it's overpowered and I couldn't nerf the damage
+param SwordArtsParam: id 406: useMagicPoint_R1: = 200
+param SwordArtsParam: id 406: useMagicPoint_R2: = 200
 
 ## disable all stagger
 param AtkParam_Pc: positive dmgLevel: dmgLevel: = 0
