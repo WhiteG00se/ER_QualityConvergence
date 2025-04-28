@@ -26,3 +26,6 @@ param Bullet: id 10698103: sfxId_Bullet: = -1
 param Bullet: id 10698111: sfxId_Hit: = -1
 param Bullet: id 10698111: sfxId_Bullet: = -1
 
+## Phoenix of Death - less extreme animation
+## remove golden orb
+param SpEffectVfxParam: id 53255: midstSfxId: = -1
