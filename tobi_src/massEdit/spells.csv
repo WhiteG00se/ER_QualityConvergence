@@ -51,12 +51,3 @@ param CalcCorrectGraph: id 27: stageMaxGrowVal4: = 30
 ## Energy Shell
 param Magic: id 4160: mp: = 0
 param Magic: id 4160: requirementIntellect: = 15
-
-## Ire of the Dragon God - less extreme animation
-## change (default is 1645257)
-param Bullet: id 10698102: sfxId_Bullet: = 642661
-## remove
-param Bullet: id 10698101: sfxId_Hit: = -1
-param Bullet: id 10698103: sfxId_Bullet: = -1
-param Bullet: id 10698111: sfxId_Hit: = -1
-param Bullet: id 10698111: sfxId_Bullet: = -1

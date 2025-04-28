@@ -16,3 +16,13 @@ param SpEffectParam: id 1679300: vfxId: = -1
 ## Veteran's Armor - Commander's Solace (self + ally)
 param SpEffectParam: id 7004105: vfxId: = -1
 param SpEffectParam: id 7004106: vfxId: = -1
+
+## Ire of the Dragon God - less extreme animation
+## change (default is 1645257)
+param Bullet: id 10698102: sfxId_Bullet: = 642661
+## remove
+param Bullet: id 10698101: sfxId_Hit: = -1
+param Bullet: id 10698103: sfxId_Bullet: = -1
+param Bullet: id 10698111: sfxId_Hit: = -1
+param Bullet: id 10698111: sfxId_Bullet: = -1
+
